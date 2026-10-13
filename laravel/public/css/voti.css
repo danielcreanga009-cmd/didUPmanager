@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+.lista {
+    padding: 0;
+    list-style: none;
+}
+
+.lista li {
+    margin-bottom: 10px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.lista span {
+    display: block;
+    margin-top: 4px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.lista p {
+    margin: 10px 0 0;
+    line-height: 1.4;
+}
