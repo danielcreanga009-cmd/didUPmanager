@@ -8,7 +8,7 @@ class CompitiController extends Controller
 {
     public function compiti()
     {
-        $compiti = Compito::where('data_consegna', '>=', now()->toDateString())
+        $compiti = Compito::where('data_consegna', '>', now()->toDateString())
             ->orderBy('data_consegna')
             ->with('materia')
             ->get();
