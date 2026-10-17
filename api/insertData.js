@@ -38,4 +38,31 @@ export async function insertData(dati) {
             ]
         );
     }
+
+    for (const voto of dati.voti) {
+        const [materia] = await db.execute(
+            `SELECT id FROM materie WHERE argo_id = ?`,
+            [voto.materiaId]
+        );
+
+        await db.execute(
+            `INSERT INTO voti
+            (materia_id, data, voto_argo_id, commento, valore)
+            VALUES (?, ?, ?, ?, ?)
+            ON DUPLICATE KEY UPDATE
+            materia_id = VALUES(materia_id),
+            data = VALUES(data),
+            commento = VALUES(commento),
+            valore = VALUES(valore)`,
+            
+            [
+                materia[0].id,
+                voto.data,
+                voto.id,
+                voto.commento,
+                voto.valore
+            ]
+        );
+
+    }
 }

@@ -69,5 +69,14 @@ export function normalizzaDashboard(responseDashboard) {
             materie: docente.materie
         })),
         voti: dati.voti
+            .filter((voto) => voto.codTipo === "V")
+            .map((voto) => ({
+                id: voto.pk,
+                materiaId: voto.pkMateria,
+                docenteId: voto.pkDocente,
+                valore: voto.valore,
+                data: voto.datGiorno,
+                commento: voto.desCommento
+            }))
     };
 }
