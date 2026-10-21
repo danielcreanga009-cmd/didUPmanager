@@ -1,5 +1,17 @@
 const valutazioni_salvate = document.querySelector(".valutazioni_salvate");
 const lista = document.querySelector(".lista");
+const dialogoVoto = document.querySelector("#dialogo-voto");
+const chiudiDialogoVoto = document.querySelector(".chiudi-dialogo-voto");
+
+chiudiDialogoVoto?.addEventListener("click", () => {
+    dialogoVoto.close();
+});
+
+dialogoVoto?.addEventListener("click", (event) => {
+    if (event.target === dialogoVoto) {
+        dialogoVoto.close();
+    }
+});
 
 async function getData(){
 
@@ -44,15 +56,59 @@ function voti_count(data){
 }
 function show_voti(voto) {
     const elemento = document.createElement("li");
+    const pulsante = document.createElement("button");
+    const valore = document.createElement("span");
+    const dettagli = document.createElement("div");
     const titolo = document.createElement("strong");
     const data = document.createElement("span");
 
-    titolo.textContent = voto.materia.nome + ": " + voto.valore;
+    pulsante.className = "voto-apri-dialogo";
+    pulsante.type = "button";
+    pulsante.setAttribute("aria-haspopup", "dialog");
+    valore.className = "voto-valore";
+    dettagli.className = "voto-dettagli";
+
+    const votoNumerico = Number(voto.valore);
+    valore.classList.add(getClasseColoreVoto(votoNumerico));
+
+    valore.textContent = voto.valore;
+    titolo.textContent = voto.materia.nome;
     data.textContent = voto.data;
 
+    dettagli.append(titolo, data);
+    pulsante.append(valore, dettagli);
+    pulsante.addEventListener("click", () => apriDialogoVoto(voto));
+    elemento.append(pulsante);
 
-    elemento.append(titolo, data);
     lista.append(elemento);
+}
+
+function getClasseColoreVoto(voto) {
+    if (voto >= 6) {
+        return "voto-sufficiente";
+    }
+
+    if (voto >= 5) {
+        return "voto-quasi-sufficiente";
+    }
+
+    return "voto-insufficiente";
+}
+
+function apriDialogoVoto(voto) {
+    const valore = dialogoVoto.querySelector(".dialogo-voto-valore");
+    const materia = dialogoVoto.querySelector("#dialogo-voto-materia");
+    const data = dialogoVoto.querySelector(".dialogo-voto-data");
+    const commento = dialogoVoto.querySelector(".dialogo-voto-commento");
+
+    valore.className = "dialogo-voto-valore";
+    valore.classList.add(getClasseColoreVoto(Number(voto.valore)));
+    valore.textContent = voto.valore;
+    materia.textContent = voto.materia?.nome ?? "Materia non disponibile";
+    data.textContent = voto.data;
+    commento.textContent = voto.commento || "Nessun commento disponibile.";
+
+    dialogoVoto.showModal();
 }
 
 function media(voti){
@@ -69,7 +125,7 @@ function media(voti){
     }
     const valoreMedia = somma / voti.length;
     
-    mediaHtml.textContent = `Media generale: ${valoreMedia.toFixed(2)}`;
+    mediaHtml.textContent = valoreMedia.toFixed(2);
 }
 
 function mediaMaterie(voti) {

@@ -18,6 +18,7 @@ async function getData(){
 
         voti_count(data);
         media(data);
+        creaGraficoMateria(data);
 
         for (const voto of data) {
             show_voti(voto);
@@ -44,14 +45,27 @@ function voti_count(data){
 
 function show_voti(voto) {
     const elemento = document.createElement("li");
-    const titolo = document.createElement("strong");
+    const valore = document.createElement("span");
+    const dettagli = document.createElement("div");
     const data = document.createElement("span");
+    const votoNumerico = Number(voto.valore);
 
-    titolo.textContent = voto.valore;
+    valore.className = "voto-valore";
+    dettagli.className = "voto-dettagli";
+
+    if (votoNumerico >= 6) {
+        valore.classList.add("voto-sufficiente");
+    } else if (votoNumerico >= 5) {
+        valore.classList.add("voto-quasi-sufficiente");
+    } else {
+        valore.classList.add("voto-insufficiente");
+    }
+
+    valore.textContent = voto.valore;
     data.textContent = voto.data;
 
-
-    elemento.append(titolo, data);
+    dettagli.append(data);
+    elemento.append(valore, dettagli);
     lista.append(elemento);
 }
 

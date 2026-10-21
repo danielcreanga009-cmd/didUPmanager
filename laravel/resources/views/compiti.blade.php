@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="{{ asset('css/compiti.css') }}">
 </head>
 <body>
-    <main>
-        <h1>Compiti</h1>
-        <p>Compiti salvati: {{ $compiti->count() }}</p>
+    <main class="pagina-compiti">
+        <header class="intestazione-compiti">
+            <div>
+                <p class="etichetta-sezione">Organizzazione</p>
+                <h1>Compiti</h1>
+            </div>
+
+            <p class="conteggio-compiti">{{ $compiti->count() }} compiti salvati</p>
+        </header>
 
         <ul class="lista">
             @forelse ($compiti as $compito)
-                <li>
+                <li class="compito">
                     <strong>{{ $compito->materia->nome }}</strong>
                     <span>Consegna: {{ \Carbon\Carbon::parse($compito->data_consegna)->format('d/m/Y') }}</span>
                     <p>{{ $compito->testo }}</p>
                 </li>
             @empty
-                <li>Non ci sono ancora compiti salvati.</li>
+                <li class="lista-vuota">Non ci sono ancora compiti salvati.</li>
             @endforelse
         </ul>
     </main>
