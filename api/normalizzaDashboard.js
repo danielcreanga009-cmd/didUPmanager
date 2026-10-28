@@ -76,7 +76,8 @@ export function normalizzaDashboard(responseDashboard) {
                 docenteId: voto.pkDocente,
                 valore: voto.valore,
                 data: voto.datGiorno,
-                commento: voto.desCommento
+                commento: voto.desCommento,
+                descrizione: voto.descrizioneProva
             }))
     };
 }

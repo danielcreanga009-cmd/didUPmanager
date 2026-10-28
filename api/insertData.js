@@ -47,12 +47,13 @@ export async function insertData(dati) {
 
         await db.execute(
             `INSERT INTO voti
-            (materia_id, data, voto_argo_id, commento, valore)
-            VALUES (?, ?, ?, ?, ?)
+            (materia_id, data, voto_argo_id, commento, descrizione, valore)
+            VALUES (?, ?, ?, ?, ?, ?)
             ON DUPLICATE KEY UPDATE
             materia_id = VALUES(materia_id),
             data = VALUES(data),
             commento = VALUES(commento),
+            descrizione = VALUES(descrizione),
             valore = VALUES(valore)`,
             
             [
@@ -60,6 +61,7 @@ export async function insertData(dati) {
                 voto.data,
                 voto.id,
                 voto.commento,
+                voto.descrizione ?? null,
                 voto.valore
             ]
         );

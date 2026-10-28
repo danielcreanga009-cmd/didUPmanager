@@ -1,7 +1,7 @@
 import { chromium } from "playwright";
-import "dotenv/config";
 
-export async function login() {
+
+export async function login(codiceScuola,username,password) {
     const browser = await chromium.launch({
         headless: true
     });
@@ -42,15 +42,15 @@ export async function login() {
 
     await page
         .getByRole("textbox", { name: " Codice Scuola" })
-        .fill(process.env.ARGO_SCHOOL);
+        .fill(codiceScuola);
 
     await page
         .getByRole("textbox", { name: " Nome Utente" })
-        .fill(process.env.ARGO_USERNAME);
+        .fill(username);
 
     await page
         .getByRole("textbox", { name: " Password" })
-        .fill(process.env.ARGO_PASSWORD);
+        .fill(password);
 
     await page.getByRole("button", { name: "Entra" }).click();
 

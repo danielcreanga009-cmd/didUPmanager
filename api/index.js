@@ -7,10 +7,10 @@ import db from "./db.js";
 
 async function main() {
     try {
-        const { accessToken, authToken } = await login();
+        const { accessToken, authToken } = await login(credenziali.codScuola,credenziali.name,credenziali.password);
         const dashboard = await getDashboard(accessToken, authToken);
         const dashboardNormalizzato = normalizzaDashboard(dashboard);
-        const contenutoJson = JSON.stringify(dashboardNormalizzato, null, 2);
+        const contenutoJson = JSON.stringify(dashboard, null, 2);
 
         await insertData(dashboardNormalizzato);
 
