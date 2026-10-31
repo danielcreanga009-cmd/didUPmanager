@@ -74,9 +74,17 @@
                         </div>
 
                         <div class="grafico-card">
-                            <h3>Andamento della media mensile</h3>
+                            <div class="intestazione-grafico">
+                                <h3>Andamento della media</h3>
+                                <label for="tipo-andamento">Periodo</label>
+                                <select id="tipo-andamento">
+                                    <option value="settimanale">Settimanale</option>
+                                    <option value="bisettimanale" selected>Ogni due settimane</option>
+                                    <option value="mensile">Mensile</option>
+                                </select>
+                            </div>
                             <div class="grafico-container">
-                                <canvas id="andamentoVotiChart" role="img" aria-label="Grafico dell'andamento della media mensile"></canvas>
+                                <canvas id="andamentoVotiChart" role="img" aria-label="Grafico dell'andamento della media"></canvas>
                             </div>
                         </div>
 
@@ -142,6 +150,9 @@
         </div>
 
         <div class="commento-dialogo-voto">
+            <h3>Descrizione prova</h3>
+            <p class="dialogo-voto-descrizione"></p>
+
             <h3>Commento</h3>
             <p class="dialogo-voto-commento"></p>
         </div>

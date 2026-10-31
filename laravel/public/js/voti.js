@@ -99,6 +99,7 @@ function apriDialogoVoto(voto) {
     const valore = dialogoVoto.querySelector(".dialogo-voto-valore");
     const materia = dialogoVoto.querySelector("#dialogo-voto-materia");
     const data = dialogoVoto.querySelector(".dialogo-voto-data");
+    const descrizione = dialogoVoto.querySelector(".dialogo-voto-descrizione");
     const commento = dialogoVoto.querySelector(".dialogo-voto-commento");
 
     valore.className = "dialogo-voto-valore";
@@ -106,6 +107,7 @@ function apriDialogoVoto(voto) {
     valore.textContent = voto.valore;
     materia.textContent = voto.materia?.nome ?? "Materia non disponibile";
     data.textContent = voto.data;
+    descrizione.textContent = voto.descrizione || "Nessuna descrizione disponibile.";
     commento.textContent = voto.commento || "Nessun commento disponibile.";
 
     dialogoVoto.showModal();
@@ -115,7 +117,6 @@ function media(voti){
     const mediaHtml = document.querySelector(".media");
 
     if (voti.length === 0) {
-        mediaHtml.textContent = "Nessun voto disponibile.";
         return;
     }
 

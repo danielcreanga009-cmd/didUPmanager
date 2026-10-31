@@ -1,3 +1,5 @@
+let graficoAndamento;
+
 async function getDatiGrafico() {
     try {
         const parametri = new URLSearchParams(window.location.search);
@@ -39,7 +41,7 @@ async function getDatiGrafico() {
         });
 
         creaGraficoMedie(labels, dati);
-        creaGraficoAndamentoMedia(votiValidi);
+        inizializzaSelettoreAndamento(votiValidi);
         creaGraficoDistribuzione(votiValidi);
     } catch (error) {
         console.error(error);
@@ -81,7 +83,21 @@ function creaGraficoMedie(labels, dati) {
     });
 }
 
-function creaGraficoAndamentoMedia(voti) {
+function inizializzaSelettoreAndamento(voti) {
+    const selettore = document.querySelector('#tipo-andamento');
+
+    if (!selettore) {
+        return;
+    }
+
+    creaGraficoAndamentoMedia(voti, selettore.value);
+
+    selettore.addEventListener('change', () => {
+        creaGraficoAndamentoMedia(voti, selettore.value);
+    });
+}
+
+function creaGraficoAndamentoMedia(voti, tipoAndamento) {
     const ctx = document.getElementById('andamentoVotiChart');
 
     if (!ctx) {
@@ -91,38 +107,36 @@ function creaGraficoAndamentoMedia(voti) {
     const votiOrdinati = [...voti].sort((primoVoto, secondoVoto) => {
         return new Date(primoVoto.data) - new Date(secondoVoto.data);
     });
-    const medieMensili = {};
+    const mediePerPeriodo = {};
 
     votiOrdinati.forEach((voto) => {
-        const mese = voto.data.slice(0, 7);
+        const periodo = ottieniPeriodo(voto.data, tipoAndamento);
 
-        if (!medieMensili[mese]) {
-            medieMensili[mese] = {
+        if (!mediePerPeriodo[periodo]) {
+            mediePerPeriodo[periodo] = {
                 totale: 0,
                 numeroVoti: 0
             };
         }
 
-        medieMensili[mese].totale += Number(voto.valore);
-        medieMensili[mese].numeroVoti += 1;
+        mediePerPeriodo[periodo].totale += Number(voto.valore);
+        mediePerPeriodo[periodo].numeroVoti += 1;
     });
-    const mesi = Object.keys(medieMensili);
-    const formatoMese = new Intl.DateTimeFormat('it-IT', {
-        month: 'short',
-        year: 'numeric'
-    });
-    const medie = mesi.map((mese) => {
-        const datiMese = medieMensili[mese];
+    const periodi = Object.keys(mediePerPeriodo);
+    const medie = periodi.map((periodo) => {
+        const datiPeriodo = mediePerPeriodo[periodo];
 
-        return datiMese.totale / datiMese.numeroVoti;
+        return datiPeriodo.totale / datiPeriodo.numeroVoti;
     });
 
-    new Chart(ctx, {
+    graficoAndamento?.destroy();
+
+    graficoAndamento = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: mesi.map((mese) => formatoMese.format(new Date(`${mese}-01`))),
+            labels: periodi.map((periodo) => formattaPeriodo(periodo, tipoAndamento)),
             datasets: [{
-                label: 'Media mensile',
+                label: `Media ${selettoreTipoAndamento[tipoAndamento]}`,
                 data: medie,
                 borderColor: '#2563eb',
                 backgroundColor: 'rgb(37 99 235 / 15%)',
@@ -133,6 +147,75 @@ function creaGraficoAndamentoMedia(voti) {
         },
         options: opzioniScalaVoti(2)
     });
+}
+
+const selettoreTipoAndamento = {
+    settimanale: 'settimanale',
+    bisettimanale: 'ogni due settimane',
+    mensile: 'mensile'
+};
+
+function ottieniPeriodo(data, tipoAndamento) {
+    if (tipoAndamento === 'settimanale') {
+        return ottieniInizioSettimana(data);
+    }
+
+    if (tipoAndamento === 'mensile') {
+        return data.slice(0, 7);
+    }
+
+    return ottieniInizioPeriodoBisettimanale(data);
+}
+
+function ottieniInizioSettimana(data) {
+    const dataVoto = new Date(`${data}T00:00:00`);
+    const giorniDaLunedi = (dataVoto.getDay() + 6) % 7;
+
+    dataVoto.setDate(dataVoto.getDate() - giorniDaLunedi);
+
+    return formattaDataIso(dataVoto);
+}
+
+function ottieniInizioPeriodoBisettimanale(data) {
+    const dataVoto = new Date(`${data}T00:00:00`);
+    const riferimento = new Date(2026, 8, 1);
+    const giorniDalRiferimento = Math.floor((dataVoto - riferimento) / 86400000);
+    const giorniNelPeriodo = Math.floor(giorniDalRiferimento / 14) * 14;
+    const inizioPeriodo = new Date(riferimento);
+
+    inizioPeriodo.setDate(riferimento.getDate() + giorniNelPeriodo);
+
+    return formattaDataIso(inizioPeriodo);
+}
+
+function formattaPeriodo(inizioPeriodo, tipoAndamento) {
+    if (tipoAndamento === 'mensile') {
+        const formatoMese = new Intl.DateTimeFormat('it-IT', {
+            month: 'long',
+            year: 'numeric'
+        });
+
+        return formatoMese.format(new Date(`${inizioPeriodo}-01T00:00:00`));
+    }
+
+    const inizio = new Date(`${inizioPeriodo}T00:00:00`);
+    const fine = new Date(inizio);
+    const formatoData = new Intl.DateTimeFormat('it-IT', {
+        day: 'numeric',
+        month: 'short'
+    });
+
+    fine.setDate(fine.getDate() + (tipoAndamento === 'settimanale' ? 6 : 13));
+
+    return `${formatoData.format(inizio)} - ${formatoData.format(fine)}`;
+}
+
+function formattaDataIso(data) {
+    const anno = data.getFullYear();
+    const mese = String(data.getMonth() + 1).padStart(2, '0');
+    const giorno = String(data.getDate()).padStart(2, '0');
+
+    return `${anno}-${mese}-${giorno}`;
 }
 
 function creaGraficoDistribuzione(voti) {

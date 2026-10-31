@@ -774,6 +774,32 @@ h2 {
     font-size: 18px;
 }
 
+.intestazione-grafico {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.intestazione-grafico h3 {
+    margin: 0;
+    margin-right: auto;
+}
+
+.intestazione-grafico label {
+    color: #475569;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.intestazione-grafico select {
+    padding: 8px 30px 8px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #1f2937;
+}
+
 .grafico-container {
     position: relative;
     width: 100%;
