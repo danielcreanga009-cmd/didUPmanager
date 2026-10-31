@@ -194,9 +194,9 @@
             "chiave": "CONSIGLIO_DI_CLASSE"
           }
         ],
-        "mediaGenerale": 8.14,
+        "mediaGenerale": 8.05,
         "mediaPerMese": {
-          "10": 8.141666
+          "10": 8.05
         },
         "listaMaterie": [
           {
@@ -376,6 +376,18 @@
             "datEvento": "2026-11-05"
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51D9C9F65A156EE1768F3192D35C7925807301D557E1CCB53DC17D56C23453F84B8",
+            "desAnnotazioni": "Verifica orale programmata di fisica per lo studente M.S.A.",
+            "oraInizio": "12:00",
+            "oraFine": "13:00",
+            "flgVisibileFamiglia": "S",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "operazione": "I",
+            "datEvento": "2026-11-05"
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51D7963175C2CAAA555791D7B3BA452A0E216CFA0CDBCA2E6C990967F505D5242AD",
             "desAnnotazioni": "Verifica pratica in C++",
             "oraInizio": "08:30",
@@ -474,6 +486,161 @@
         ],
         "bacheca": [
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D18ADAB23D93988ADEC2F8D9D04424604",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Proclamazione Alunni eletti nei Consigli di Classe a.s. 2026/2027",
+            "autore": "G. PACIFICO",
+            "data": "2026-10-31",
+            "dataScadenza": "2027-06-30",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DB9C7504A61AED15D56293153533BDB420A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/10/439521e3-8ed6-44b6-a182-30ad1c95a7a2",
+                "descrizioneFile": "",
+                "nomeFile": "timbro_Alunni eletti a.s. 2026-2027.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-10-31"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D4A24BDC0B35D92E18F5D120805C0D094",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Laboratorio Informatica per Open Day ",
+            "autore": "G. PACIFICO",
+            "data": "2026-10-31",
+            "dataScadenza": "2027-01-31",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DC51EAB5E40D2F23A890120EC190FABE60A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/10/0bf43d16-0819-4a6e-a67a-d1ebe76e5f98",
+                "descrizioneFile": "",
+                "nomeFile": "Laboratorio Informatica Open Day - Informativa.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-10-31"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D302950C5D4326081BFAA241AD1366C15",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Come di consueto ogni anno il nostro Istituto è lieto di ospitare un gruppo di docenti e studenti stranieri, nell'ambito dei progetti di partenariato Erasmus+. La prossima settimana un gruppo di 8 studenti accompagnati da 2 docenti provenienti dalle isole Azzorre, saranno in visita nel nostro Istituto e parteciperanno alle attività culturali insieme agli studenti aquilani che li ospiteranno presso le proprie famiglie. In particolare, gli studenti e le studentesse delle Azzorre saranno inseriti nelle prime due ore dei  giorni 3, 4 e 5 Novembre nelle seguenti classi degli studenti ospitanti: 4A SA, 4B, 4C, 4C SA, 4D, 4E, 4I. Si ringrazia per la collaborazione e l'ospitalità che ognuno a proprio modo vorrà dimostrare.\n",
+            "autore": "G. PACIFICO",
+            "data": "2026-10-31",
+            "dataScadenza": "2026-11-07",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [],
+            "operazione": "I",
+            "datEvento": "2026-10-31"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D4D1ADE8075B2CF650B6FBF352EE37AE1",
+            "categoria": "Programmazione disciplinare",
+            "messaggio": "Programmazione  4BSA",
+            "autore": "R. DI STEFANO",
+            "data": "2026-10-30",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": false,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D5E63D99D7597B0B777C9195DBCDC82C60A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/10/df22f610-3f40-474b-869f-2aad341ba2c0",
+                "descrizioneFile": "Programmazione  4BSA",
+                "nomeFile": "4BSA.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-10-30"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D17C9D904B5F68E3FFE20E9A30DC8793D",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Si comunica che il giorno 31/10/26 le psicologhe Manuela De Curtis e Simona Feneziani faranno un breve intervento di presentazione nelle classi per illustrare quali siano le finalità dello sportello di ascolto e le modalità per prendere appuntamento. Questi interventi non costituiscono attività professionale, ma semplice attività informativa del servizio.",
+            "autore": "S. MARCANTONIO",
+            "data": "2026-10-29",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": false,
+            "listaAllegati": [],
+            "operazione": "I",
+            "datEvento": "2026-10-29"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DC9CB3B8D3895AA80111CB30CE417FA84",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Si comunica che da domani, giovedì 29 ottobre 2026, avranno inizio le attività alternative all’Insegnamento della Religione Cattolica e le attività di studio assistito (cfr. allegato). Gli studenti interessati si recheranno autonomamente nell’aula 77 (Piano terzo Corpo E), dove troveranno il docente assegnato. Gli studenti della classe 3B svolgeranno l’attività nell’aula 86.\nSi comunica altresì che a partire dalla medesima data gli studenti che hanno scelto l’opzione “Studio autonomo” potranno uscire dalla propria classe e svolgere tale attività nelle postazioni poste nel corridoio del Piano primo Corpo C.\nSi ringrazia per la collaborazione.",
+            "autore": "G. PACIFICO",
+            "data": "2026-10-28",
+            "dataScadenza": "2027-06-30",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D86691BB656A3B77FE953D2E4BBBBD9BE5F25361889BD3C4ABEA274BD8746FB8F",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/10/84e54c36-6d24-474e-b912-a8d3a52d2995",
+                "descrizioneFile": "",
+                "nomeFile": "Docenti Attivit Alternativa IRC a.s. 2026-2027.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-10-28"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D914692862EBE01DB993FC05031AA8EFD",
+            "categoria": "Comunicazioni segreteria alunni",
+            "messaggio": "Istruzioni operative elezione annuale Organi Collegiali a.s. 2026/27",
+            "autore": "Direzione/Segreteria",
+            "data": "2026-10-26",
+            "dataScadenza": "2027-08-31",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": false,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D4A7ED81962D2EAF402BCB836BCEF56C20A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/10/c21cab03-9db5-4027-8a44-b0821a353653",
+                "nomeFile": "timbro_Elezione Organi Collegiali - Istruzioni operative.pdf"
+              },
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D4A7ED81962D2EAF402BCB836BCEF56C25F25361889BD3C4ABEA274BD8746FB8F",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/10/d4ba929f-9ff6-4578-bf04-95d7abaeafb3",
+                "nomeFile": "Elezione Organi Collegiali - Istruzioni operative.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-10-26"
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DED4CC656F401582EDC91BE8121A2F257",
             "categoria": "Avviso Vicepresidenza",
             "messaggio": "Si comunica che lunedì 9 novembre 2026 avrà inizio il corso “Introduzione alla programmazione con Python” (cfr. allegato), valido come attività di Formazione Scuola Lavoro. Il corso, della durata di 15 ore, per un totale di 7 incontri pomeridiani, sarà tenuto dal prof. Francesco Gallo. Per ulteriori informazioni è possibile contattare il prof. Gallo all’indirizzo mail francesco.gallo@bafileaq.com. Le adesioni vanno comunicate al link https://forms.gle/LtFJeAH827chvv4MA entro sabato 31 ottobre 2026. Si ringrazia per la collaborazione.",
@@ -496,118 +663,6 @@
             ],
             "operazione": "I",
             "datEvento": "2026-10-24"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D2B1282A8D4A6D9A0948C3172E95AC90D",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che le attività di propaganda elettorale rivolte alle classi 4A AF, 4B AA e 4C AM del Liceo Artistico sono rinviate a sabato 24 ottobre 2026. La propaganda elettorale verrà svolta in Aula Magna dalle ore 11:40 alle ore 13:00. La vigilanza sarà assicurata dai docenti in orario. Tutti gli studenti candidati sono autorizzati ad uscire dalle proprie classi per lo svolgimento di tali attività. Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-22",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-22"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D65636CE523DF72F5C28C790FE32461CC",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che gli alunni Nicola Alfonsetti (5A LA), Giorgio Chiaperotti (5D), Vincenzo Colella (5D), Pierluigi Ianni (4B SA), Pietro Menichetti (5I), Federico Pepe (4A) e Raffaele Tarquini (4I) nelle giornate di venerdì 23 e sabato 24 ottobre 2026 sono autorizzati a recarsi in Aula Magna alle ore 8:15. Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-22",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-22"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D3C87CDD0530369BE0267B31C9880407B",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che le attività di propaganda elettorale rivolte alle classi 2A LA, 2B LA, 2A SA, 2B SA, 2C SA, 2D SA e 2I si svolgeranno in Aula Magna.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-22",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-22"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D8A93FCBEC718447B2F46156EC2C28CD7",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che le attività di propaganda elettorale rivolte alle classi 1A, 1B, 1C, 1D, 1E, 1F e 1S del Liceo Scientifico si svolgeranno in Aula Magna. ",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-22",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-22"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D44BD5CAA6ACBF78B9266977FDE63079C",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che le attività di propaganda elettorale rivolte alle classi 2A, 2B, 2C, 2D, 2E, 2F e 2S del Liceo Scientifico sono rinviate a sabato 24 ottobre 2026. La propaganda elettorale verrà svolta in Aula Magna dalle ore 10:10 alle ore 11:40. La vigilanza sarà assicurata dai docenti in orario. Tutti gli studenti candidati sono autorizzati ad uscire dalle proprie classi per lo svolgimento di tali attività. Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-22",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-22"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DB2F21F3C5C1C889F49F8A3F81FA298A8",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che è assolutamente vietato affiggere i volantini per la propaganda elettorale sui muri della scuola. I volantini potranno essere lasciati sulle cattedre delle varie classi. Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-22",
-            "dataScadenza": "2026-10-28",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-22"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DB616FB1ABB862B04698800AB76D6EFCB",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che le attività di propaganda elettorale rivolte alle classi 1A, 1B, 1C, 1D, 1E, 1F e 1S sono rinviate a sabato 24 ottobre 2026. La propaganda elettorale verrà svolta in palestra dalle ore 8:30 alle ore 10:00. La vigilanza sarà assicurata dai docenti in orario. Tutti gli studenti candidati sono autorizzati ad uscire dalle proprie classi per lo svolgimento di tali attività. Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-20",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-20"
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DB40A0EA11BC24B2E1CB2F780A5734817",
@@ -806,22 +861,6 @@
                 "nomeFile": "Vademecum assenze, entrate fuori orario e uscite anticipate 2026-2027-signed.pdf"
               }
             ],
-            "operazione": "I",
-            "datEvento": "2026-10-10"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DB376DFD7C9637E32F03AFB204339E079",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Hai la passione per la giustizia o semplicemente la capacità di ribaltare ogni argomento con la forza della logica? Quest’anno il nostro Istituto ti offre l’opportunità di partecipare al progetto “Dire e Contraddire”, curato dall’ordine degli avvocati della provincia dell’Aquila. Le ore valgono come attività di Formazione Scuola Lavoro (FSL). Il percorso unisce teoria e pratica attraverso incontri pomeridiani di formazione direttamente nelle aule del Tribunale dell’Aquila e competizioni territoriali in cui gli istituti si sfideranno a colpi di tesi e antitesi su argomenti di attualità.\nPer ulteriori informazioni e per l’adesione al progetto è possibile rivolgersi alla prof.ssa Luciana De Paolis, cercandola a scuola o scrivendole una mail all’indirizzo luciana.depaolis@bafileaq.com.  Le adesioni vanno comunicate alla prof.ssa De Paolis entro il giorno 16 ottobre 2026.  ",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-10",
-            "dataScadenza": "2026-10-24",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
             "operazione": "I",
             "datEvento": "2026-10-10"
           },
@@ -1613,6 +1652,46 @@
             "datEvento": "2026-10-09"
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF9774236EC61BB9CA080C1139F525F575FE70E69730F76EC3874032A3E3199020199B89A6FC713DA5536A03B1354AC93D116D5EA1338F1FB5CD166C88C60CBFA15F7D78BE4A6F74EEAA264F004A8AB3218ACC55C7FD90D5362F38BAF427AAF1E00DACAE86FD33AB0CD1F10D914A35E9E9FD466D",
+            "codTipo": "V",
+            "codCodice": "7½",
+            "prgVoto": 1,
+            "codVotoPratico": "N",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+            "desMateria": "SCIENZE MOTORIE E SPORTIVE",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564F5AA439D868892DA8ADE304A7F50CA0F",
+            "docente": "R. DI STEFANO",
+            "datGiorno": "2026-10-29",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 32
+              },
+              "codMateria": "SMS",
+              "desDescrizione": "SCIENZE MOTORIE E SPORTIVE",
+              "desDescrAbbrev": "SCIENZE MOT.SPORT.",
+              "codSuddivisione": "OP",
+              "codTipo": "EF",
+              "flgCongelata": "N",
+              "flgConcorreMedia": "S",
+              "codMinisteriale": "Z000",
+              "desClasseConcorso": "A029",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9"
+            },
+            "mese": 10,
+            "valore": 7.5,
+            "numMedia": 1,
+            "descrizioneVoto": "sette e mezzo",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-10-29"
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423649298A5B512829FEC95C87F61653476FF9ABD88C2BC16D3E57F371932A3E50E1CF0AFC7AC50CA459841C4A5E97F22E05E7AEE1FE2FFC35F69EAD6785E328F4A402D0CF692937D5546085BC25BBEC542C7FD90D5362F38BAF427AAF1E00DACAE86FD33AB0CD1F10D914A35E9E9FD466D",
             "codTipo": "V",
             "codCodice": "8",
@@ -1662,6 +1741,16 @@
             "materie": [
               "SCIENZE NATURALI",
               "EDUCAZIONE CIVICA"
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556452DD5B689C183246CD2DC36978A6EAAA",
+            "desCognome": "BUONCOMPAGNO",
+            "desNome": "LORENZO",
+            "desEmail": "lorenzo.buoncompagno3.14@gmail.com",
+            "docente": "L. BUONCOMPAGNO",
+            "materie": [
+              "Att. altern relig"
             ]
           },
           {
@@ -1769,7 +1858,7 @@
         "profiloDisabilitato": false,
         "mediaPerPeriodo": {
           "1Q": {
-            "mediaGenerale": 8.14,
+            "mediaGenerale": 8.05,
             "listaMaterie": {
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3": {
                 "numValutazioniOrale": 1,
@@ -1790,6 +1879,16 @@
                 "numValori": 0,
                 "numValutazioniScritto": 0,
                 "mediaOrale": 8.15
+              },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9": {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 7.5,
+                "mediaScritta": 0,
+                "numVoti": 1,
+                "sumValori": 7.5,
+                "numValori": 0,
+                "numValutazioniScritto": 0,
+                "mediaOrale": 7.5
               },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9": {
                 "numValutazioniOrale": 1,
@@ -1833,7 +1932,7 @@
               }
             },
             "mediaMese": {
-              "10": 8.14
+              "10": 8.05
             }
           },
           "SF": {
@@ -1850,6 +1949,16 @@
                 "mediaOrale": 0
               },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9": {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9": {
                 "numValutazioniOrale": 0,
                 "mediaMateria": 0,
                 "mediaScritta": 0,
@@ -1919,6 +2028,14 @@
             "numVoti": 1,
             "numValori": 0,
             "mediaOrale": 8.15
+          },
+          "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9": {
+            "mediaMateria": 7.5,
+            "mediaScritta": 0,
+            "sumValori": 7.5,
+            "numVoti": 1,
+            "numValori": 0,
+            "mediaOrale": 7.5
           },
           "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9": {
             "mediaMateria": 8,
@@ -2039,6 +2156,21 @@
             "isFirmato": true,
             "operazione": "I",
             "datEvento": "2026-10-19",
+            "ora": 3,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C436C0F704C753F8DE7B56E0FFB06A7D14B1058CD619730FEE68C8CE91F1A901B278A9C7308F6AC9AE5D89D66A813362EA18EE3EC67D434F92329FF1429EA4DD471",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FEA13468F7C349C7120DBA7AC6240EF62D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "RELIGIONE CATTOLICA O ATTIVITA' ALTERNATIVA",
+            "datGiorno": "2026-10-26",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855648A8ABEDA43F662CCF790F62D0AC484A9",
+            "docente": "L. DI LUCA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-26",
             "ora": 3,
             "attivita": "",
             "compiti": []
@@ -2305,6 +2437,41 @@
             "datEvento": "2026-10-20",
             "ora": 5,
             "attivita": "L'amicizia in Aristotele.le virtù etiche e dianoetiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB2A0073F49EA838586B5CFE7EDCF3DC39F1ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FILOSOFIA",
+            "datGiorno": "2026-10-27",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-27",
+            "ora": 4,
+            "attivita": "verifiche",
+            "compiti": [
+              {
+                "compito": "Le forme di governo in Aristotele",
+                "dataConsegna": "2026-11-03"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB2A0073F49EA838586B5CFE7EDCF3DC39F2AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FILOSOFIA",
+            "datGiorno": "2026-10-27",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-27",
+            "ora": 5,
+            "attivita": "verifiche.le forme di governo in Aristotele",
             "compiti": []
           },
           {
@@ -2733,6 +2900,61 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B64472A0073F49EA838586B5CFE7EDCF3DC39FB72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-10-27",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-27",
+            "ora": 1,
+            "attivita": "Grafico di tangente e cotangente \nSignificato geometrico di tangente e cotangente ",
+            "compiti": [
+              {
+                "compito": "Es. pag. 803 n. 599, 603,618,619,628,636,653,671,673 (libro del terzo)\nEs. pag. 57 n. 266, 268 (libro del quarto)\npag. 75 n. 555, 559,566 (libro del quarto)",
+                "dataConsegna": "2026-10-30"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B64472EA9F70D933249E75069882D6AF1FDE4BB72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-10-30",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-30",
+            "ora": 1,
+            "attivita": "Compito di matematica ",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B64472EA9F70D933249E75069882D6AF1FDE4BA96134E96D39E25BCAB90951139B3E35",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-10-30",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-30",
+            "ora": 2,
+            "attivita": "Compito di matematica ",
+            "compiti": [
+              {
+                "compito": "Es. Pag. 76 n. 582,583,620,621,622\nPag. 83 C n. 3",
+                "dataConsegna": "2026-11-02"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB009168C5BB5DBB87943C5F39F9376E6487ED2AFF0A7FD2CF7CC427C633C57893713A",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
@@ -3063,6 +3285,61 @@
             "compiti": []
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB00910C234F4873FE4771A4A545A21AB2D5DC2AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-10-28",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-28",
+            "ora": 5,
+            "attivita": "Verifiche orali. Svolgimento collegiale guidato dell' esercizio pag. 410 n. 94.",
+            "compiti": [
+              {
+                "compito": "Dall'Amaldi 1: pb. pag. 436 n. 13.",
+                "dataConsegna": "2026-10-29"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB0091798B1616DE3C076CCEC10D863BCE54E32AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-10-29",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-29",
+            "ora": 5,
+            "attivita": "Svolgimento collegiale guidato del pb. pag. 436 n. 13. Verifiche orali.",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB00915107FAF489F5B7BC2C1F6ABB39B4DC932C2668D6A70FC2C63CB25511EDCDD751",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-10-31",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-31",
+            "ora": 3,
+            "attivita": "Approfondimenti sul diagramma del potenziale di Lennard-Jones. Verifiche orali.",
+            "compiti": [
+              {
+                "compito": "Dall'Amaldi 1: pb. pag. 436 n. 14-15.",
+                "dataConsegna": "2026-11-04"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E04B77CD46051B3059C8D9FC68F7A8EDC0D1571E7B27F0E68CED33235BB3E4F942",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
@@ -3279,8 +3556,48 @@
             "operazione": "I",
             "datEvento": "2026-10-24",
             "ora": 2,
-            "attivita": "Modello Logico_Relazionale: ",
+            "attivita": "Modello Logico_Relazionale: caratteristiche e requisiti fondamentali",
+            "compiti": [
+              {
+                "compito": "Studiare pag 395, 396 e 397, rifare su FOGLIO gli esercizi non fatti e fare l'esercizio n. 12 pag 425. Fare l'esercizio con le matrici assegnato su Classroom",
+                "dataConsegna": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E0BDCF143BA677B26E670BD26E11E5EB11D1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
+            "materia": "INFORMATICA",
+            "datGiorno": "2026-10-31",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855642EE729857C976A220EC3AC45187B31F0",
+            "docente": "V. MILANI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-31",
+            "ora": 1,
+            "attivita": "Verifica Pratica di Informatica in laboratorio",
             "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E0BDCF143BA677B26E670BD26E11E5EB11B18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
+            "materia": "INFORMATICA",
+            "datGiorno": "2026-10-31",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855642EE729857C976A220EC3AC45187B31F0",
+            "docente": "V. MILANI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-31",
+            "ora": 2,
+            "attivita": "Modello logico-Relazionale: derivazione associazione 1: N. Implementazione in Access del DB Magazzino",
+            "compiti": [
+              {
+                "compito": " Ripassare, studiare pag 398 (solo derivazione associazione 1:N e utilizzo chiave esterna) e fare gli esercizi allegati su Classroom",
+                "dataConsegna": "2026-11-07"
+              }
+            ]
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA68DFEA01B6F033204B5ADAC61BEA0AF1460EE515B84A75923B14A30C447F5386",
@@ -3777,6 +4094,81 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA9CAE136642D39B0AB6C0AA38EDCA2DA97D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-10-27",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-27",
+            "ora": 3,
+            "attivita": "Correzione degli esercizi assegnati per casa.",
+            "compiti": [
+              {
+                "compito": "CHIMICA: ripasso, basarsi sugli esercizi di fine capitolo",
+                "dataConsegna": "2026-10-28"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCAB317B9522B83473C05AA1AA715CA044DD1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-10-28",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-28",
+            "ora": 1,
+            "attivita": "CHIMICA: il meccanismo di reazione e la catalisi enzimatica.",
+            "compiti": [
+              {
+                "compito": "CHIMICA: studiare fino a pag. 475, esercizi a pag.482 e 483 n.62-65-66-67 -68-69-72 e a pag, 431 n.112",
+                "dataConsegna": "2026-11-03"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCAB317B9522B83473C05AA1AA715CA044DB18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-10-28",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-28",
+            "ora": 2,
+            "attivita": "Elezione dei rappresentanti di classe e di istituto",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA19B4338AF86E63C48531C82C18CE7ADAD1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-10-29",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-29",
+            "ora": 1,
+            "attivita": "GEOSCIENZE: la formazione dei minerali, i clarati.",
+            "compiti": [
+              {
+                "compito": "GEOSCIENZE: studiare fino a pag. 30, completare la mappa a pag.32, eseguire esercizi a pag.35 e rispondere oralmente alle domande a pag. 36.",
+                "dataConsegna": "2026-11-02"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF720B899DE8AD12CCADA67453C979733C4C7D0AFAE5569326DBEB8A2373ACD0E177",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
@@ -3865,6 +4257,41 @@
             "ora": 2,
             "attivita": "La Rivoluzione scientifica ed il Razionalismo filosofico del 1600",
             "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF72B317B9522B83473C05AA1AA715CA044D7D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "STORIA",
+            "datGiorno": "2026-10-28",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-28",
+            "ora": 3,
+            "attivita": "le filosofia politica tra 16 ° e 17° secolo",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF7219B4338AF86E63C48531C82C18CE7ADAB18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "STORIA",
+            "datGiorno": "2026-10-29",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-29",
+            "ora": 2,
+            "attivita": "il secolo d'oro dell'Olanda.la Francia di Richeleau.la guerra dei Trent'anni e pa pace di Westfalia.",
+            "compiti": [
+              {
+                "compito": "per le verifiche di mercoledì studiare da pag.364 a pag.455",
+                "dataConsegna": "2026-11-04"
+              }
+            ]
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952094AC756C7E30C615E7E29331A4AC8B122A96134E96D39E25BCAB90951139B3E35",
@@ -4266,12 +4693,32 @@
             "datGiorno": "2026-10-27",
             "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
             "docente": "M. ROTELLINI",
-            "isFirmato": false,
+            "isFirmato": true,
             "operazione": "I",
             "datEvento": "2026-10-27",
             "ora": 2,
             "attivita": "verifica orale",
             "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952090C234F4873FE4771A4A545A21AB2D5DC1ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-10-28",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-28",
+            "ora": 4,
+            "attivita": "Inferno, canto XXXIII, vv.1-78. La drammatica vicenda del conte Ugolino della Gherardesca",
+            "compiti": [
+              {
+                "compito": "Inferno, canto XXXIII, vv.1-78",
+                "dataConsegna": "2026-11-04"
+              }
+            ]
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F86764695209EA9F70D933249E75069882D6AF1FDE4B2C2668D6A70FC2C63CB25511EDCDD751",
@@ -4281,11 +4728,25 @@
             "datGiorno": "2026-10-30",
             "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
             "docente": "M. ROTELLINI",
-            "isFirmato": false,
+            "isFirmato": true,
             "operazione": "I",
             "datEvento": "2026-10-30",
             "ora": 3,
             "attivita": "laboratorio Pretext",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F86764695209EA9F70D933249E75069882D6AF1FDE4B1ABBD06EAF5EBF2E1BE2046BC196761F",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-10-30",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-30",
+            "ora": 4,
+            "attivita": "",
             "compiti": []
           },
           {
@@ -4579,6 +5040,61 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911D19B4338AF86E63C48531C82C18CE7ADA7D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-10-29",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-29",
+            "ora": 3,
+            "attivita": "The Puritans p.123, es n.2, correzione es, traduzione, spiegazione e evidenziate le parti da studiare. es p.125 n.2",
+            "compiti": [
+              {
+                "compito": "Studiare pp.123,124 e 125. Trovare informazioni sui giochi del Commonwealth",
+                "dataConsegna": "2026-10-30"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911D42CF483B9B04C36FE903FAF59925D45D460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-10-30",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-30",
+            "ora": 5,
+            "attivita": "Lab Pretext",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911DBDCF143BA677B26E670BD26E11E5EB11ADBA4451A8FE6F28A160646910DFD9A1",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-10-31",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-31",
+            "ora": 4,
+            "attivita": "Revisione delle pp.123, 124, 125, visione del video p.124",
+            "compiti": [
+              {
+                "compito": "Studiare da p.120 a 125 e prepararsi per verifiche orali",
+                "dataConsegna": "2026-11-05"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE4519E2E10C71522010E20B8FF1CA35209C4D6AFBA3435C9DC0343CB58F276BC2B14F9ABFC9AD4C83DFA39D54370A7A07ADBA4451A8FE6F28A160646910DFD9A1",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
@@ -4707,6 +5223,21 @@
             "datEvento": "2026-10-24",
             "ora": 5,
             "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE4519E2E10C71522010E20B8FF1CA35209C4D6AFBA3435C9DC0343CB58F276BC219B4338AF86E63C48531C82C18CE7ADAADBA4451A8FE6F28A160646910DFD9A1",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE MOTORIE E SPORTIVE",
+            "datGiorno": "2026-10-29",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564F5AA439D868892DA8ADE304A7F50CA0F",
+            "docente": "R. DI STEFANO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-10-29",
+            "ora": 4,
+            "attivita": "verifiche",
             "compiti": []
           },
           {
@@ -5047,7 +5578,7 @@
         "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADE27CF63310F4CA175632429FDB5F0A1D2D1F1D2D47E45C338E3718BDAEC85CC3",
         "mediaPeriodi": [
           {
-            "mediaGenerale": 8.14,
+            "mediaGenerale": 8.05,
             "materie": [
               {
                 "numValutazioniOrale": 1,
@@ -5106,6 +5637,17 @@
               },
               {
                 "numValutazioniOrale": 1,
+                "mediaMateria": 7.5,
+                "mediaScritta": 0,
+                "numVoti": 1,
+                "sumValori": 7.5,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 7.5
+              },
+              {
+                "numValutazioniOrale": 1,
                 "mediaMateria": 8.5,
                 "mediaScritta": 0,
                 "numVoti": 1,
@@ -5120,7 +5662,7 @@
             "pk": "1Q",
             "mediaMese": [
               {
-                "valore": 8.14,
+                "valore": 8.05,
                 "mese": 10
               }
             ]
@@ -5190,6 +5732,17 @@
                 "numVoti": 0,
                 "sumValori": 0,
                 "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
+              {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
                 "numValutazioniScritto": 0,
                 "mediaOrale": 0
@@ -5200,7 +5753,7 @@
             "mediaMese": []
           },
           {
-            "mediaGenerale": 8.14,
+            "mediaGenerale": 8.05,
             "materie": [
               {
                 "numValutazioniOrale": 1,
@@ -5259,6 +5812,17 @@
               },
               {
                 "numValutazioniOrale": 1,
+                "mediaMateria": 7.5,
+                "mediaScritta": 0,
+                "numVoti": 1,
+                "sumValori": 7.5,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 7.5
+              },
+              {
+                "numValutazioniOrale": 1,
                 "mediaMateria": 8.5,
                 "mediaScritta": 0,
                 "numVoti": 1,
@@ -5273,7 +5837,7 @@
             "pk": "*",
             "mediaMese": [
               {
-                "valore": 8.14,
+                "valore": 8.05,
                 "mese": 10
               }
             ]

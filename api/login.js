@@ -6,61 +6,71 @@ export async function login(codiceScuola,username,password) {
         headless: true
     });
 
-    const page = await browser.newPage();
+    try{
+        const page = await browser.newPage();
 
-    let accessToken;
-    let authToken;
+        let accessToken;
+        let authToken;
 
-    const tokensReceived = new Promise((resolve, reject) => {
-        page.on("response", async response => {
-            const url = response.url();
+        const tokensReceived = new Promise((resolve, reject) => {
+            page.on("response", async response => {
+                const url = response.url();
 
-            try {
-                if (url.includes("/oauth2/token")) {
-                    const result = await response.json();
-                    accessToken = result.access_token;
+                try {
+                    if (url.includes("/oauth2/token")) {
+                        const result = await response.json();
+                        accessToken = result.access_token;
+                    }
+
+                    if (url.includes("/famiglia/api/login")) {
+                        const result = await response.json();
+                        authToken = result.data[0].token;
+                    }
+
+                    // Quando entrambi i token sono presenti
+                    if (accessToken && authToken) {
+                        resolve();
+                    }
+                } catch (error) {
+                    reject(error);
                 }
-
-                if (url.includes("/famiglia/api/login")) {
-                    const result = await response.json();
-                    authToken = result.data[0].token;
-                }
-
-                // Quando entrambi i token sono presenti
-                if (accessToken && authToken) {
-                    resolve();
-                }
-            } catch (error) {
-                reject(error);
-            }
+            });
         });
-    });
 
-    await page.goto("https://argofamiglia.it/");
+        await page.goto("https://argofamiglia.it/");
 
-    await page.getByRole("link", { name: "ACCEDI" }).click();
+        await page.getByRole("link", { name: "ACCEDI" }).click();
 
-    await page
-        .getByRole("textbox", { name: " Codice Scuola" })
-        .fill(codiceScuola);
+        await page
+            .getByRole("textbox", { name: " Codice Scuola" })
+            .fill(codiceScuola);
 
-    await page
-        .getByRole("textbox", { name: " Nome Utente" })
-        .fill(username);
+        await page
+            .getByRole("textbox", { name: " Nome Utente" })
+            .fill(username);
 
-    await page
-        .getByRole("textbox", { name: " Password" })
-        .fill(password);
+        await page
+            .getByRole("textbox", { name: " Password" })
+            .fill(password);
 
-    await page.getByRole("button", { name: "Entra" }).click();
+        await page.getByRole("button", { name: "Entra" }).click();
 
-    // Aspetta finché entrambi i token non sono stati ricevuti
-    await tokensReceived;
+        if (await page.getByText('Username e/o password non validi').count() > 0) {
+            await browser.close();
+            return {successo:false};
+        }
 
-    await browser.close();
+        // Aspetta finché entrambi i token non sono stati ricevuti
+        await tokensReceived;
 
-    return {
-        accessToken,
-        authToken
-    };
+        await browser.close();
+
+        return {
+            successo:true,
+            accessToken,
+            authToken
+        };
+    } finally{
+        await browser.close();
+    }
 }

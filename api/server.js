@@ -1,5 +1,6 @@
 
 import express from 'express';
+import { main } from './index.js';
 
 const app = express();
 const PORT = 3000;
@@ -8,23 +9,22 @@ app.use(express.json());
 
 export let credenziali = null;
 
-app.post('/verify-argo', (req, res) => {
-    try {
-        const {name, password, codScuola} = req.body;
+app.post('/verify-argo', async (req, res) => {
+    const {name, password, codScuola} = req.body;
 
-        res.json({
-            name: name,
-            password: password,
-            codScuola: codScuola
+    credenziali = { name, password, codScuola };
+
+    let risultato = await main(credenziali);
+
+    if(risultato.successo){
+        res.status(200).json({
+            valid:true
         });
-
-        credenziali = { name, password, codScuola };
-    } catch (error) {
+    } else{
         res.status(401).json({
             valid: false
         });
     }
-    
 });
 
 
