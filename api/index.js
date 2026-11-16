@@ -3,10 +3,11 @@ import { login } from "./login.js";
 import { getDashboard } from "./argo.js";
 import { normalizzaDashboard } from "./normalizzaDashboard.js";
 import { insertData } from "./insertData.js";
-import db from "./db.js";
+import { createDB } from "./db.js";
 
 
 export async function main(credenziali) {
+    const db = await createDB();
     try {
         const { accessToken, authToken } = await login(credenziali.codScuola,credenziali.name,credenziali.password);
         if(!accessToken || !authToken){
@@ -16,10 +17,16 @@ export async function main(credenziali) {
         const dashboardNormalizzato = normalizzaDashboard(dashboard);
         const contenutoJson = JSON.stringify(dashboard, null, 2);
 
-        await insertData(dashboardNormalizzato);
+        await insertData(dashboardNormalizzato,db);
 
        await writeFile("dashboard-normalizzato.txt", contenutoJson, "utf8");
-       return { successo: true };
+
+       const idUtente = dashboard.data.dati[0].pk;
+
+       return {
+            successo: true,
+            idUtente
+        };
     } finally {
         await db.end();
     }

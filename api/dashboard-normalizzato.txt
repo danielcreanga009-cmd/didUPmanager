@@ -39,6 +39,10 @@
           },
           {
             "valore": false,
+            "chiave": "VERBALI"
+          },
+          {
+            "valore": false,
             "chiave": "VISUALIZZA_NOTA_VALUTAZIONE"
           },
           {
@@ -150,6 +154,10 @@
             "chiave": "WSM"
           },
           {
+            "valore": false,
+            "chiave": "PEI_PDP"
+          },
+          {
             "valore": true,
             "chiave": "VOTI_GIUDIZI"
           },
@@ -160,6 +168,10 @@
           {
             "valore": false,
             "chiave": "ABILITA_AUTOCERTIFICAZIONE_FAM"
+          },
+          {
+            "valore": true,
+            "chiave": "WSP"
           },
           {
             "valore": false,
@@ -194,9 +206,10 @@
             "chiave": "CONSIGLIO_DI_CLASSE"
           }
         ],
-        "mediaGenerale": 8.05,
+        "mediaGenerale": 8.02,
         "mediaPerMese": {
-          "10": 8.05
+          "10": 8.177778,
+          "11": 7.7875
         },
         "listaMaterie": [
           {
@@ -341,7 +354,7 @@
         "promemoria": [
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51D4C708CFEB2DF7BF41F3833C129C6FF5D16CFA0CDBCA2E6C990967F505D5242AD",
-            "desAnnotazioni": "ITALIANO verifica scritta",
+            "desAnnotazioni": "ITALIANO verifica scritta sul canto di Ulisse e il canto di Ugolino della G. (Inf)",
             "oraInizio": "00:00",
             "oraFine": "00:00",
             "flgVisibileFamiglia": "S",
@@ -350,6 +363,18 @@
             "docente": "M. ROTELLINI",
             "operazione": "I",
             "datEvento": "2026-12-11"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51DF0471468EF7B43A386BD254AA89019FF16CFA0CDBCA2E6C990967F505D5242AD",
+            "desAnnotazioni": "RECUPERO verifica scritta di italiano per l'alunno G.M.",
+            "oraInizio": "00:00",
+            "oraFine": "00:00",
+            "flgVisibileFamiglia": "S",
+            "datGiorno": "2026-11-20",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "operazione": "I",
+            "datEvento": "2026-11-20"
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51D49E2E5FFD37EFAEB01F765B0259F01AC16CFA0CDBCA2E6C990967F505D5242AD",
@@ -362,18 +387,6 @@
             "docente": "M. ROTELLINI",
             "operazione": "I",
             "datEvento": "2026-11-06"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51D9C9F65A156EE1768F3192D35C792580716CFA0CDBCA2E6C990967F505D5242AD",
-            "desAnnotazioni": "Inizio verifiche orali",
-            "oraInizio": "10:00",
-            "oraFine": "11:00",
-            "flgVisibileFamiglia": "S",
-            "datGiorno": "2026-11-05",
-            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
-            "docente": "M. DE FELICIS",
-            "operazione": "I",
-            "datEvento": "2026-11-05"
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA23E87C5DE0E05969B6B991989438AA51D9C9F65A156EE1768F3192D35C7925807301D557E1CCB53DC17D56C23453F84B8",
@@ -486,6 +499,215 @@
         ],
         "bacheca": [
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D73688C3F734F6C74CD5E10D94C28CF05",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Avviso \"La tua proposta per la biblioteca\".",
+            "autore": "G. PACIFICO",
+            "data": "2026-11-12",
+            "dataScadenza": "2027-06-30",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D0805BEEAB41877C85D4E911396E3FC9D0A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/96538e4d-e10e-45b3-aac3-ad42887d5caa",
+                "descrizioneFile": "",
+                "nomeFile": "Avviso La tua proposta per la biblioteca.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-12"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D7F005368BB1CD9A06EA80A12D036AE21",
+            "categoria": "Avvisi",
+            "messaggio": "Indicazione urgente del Ministero",
+            "autore": "Direzione/Segreteria",
+            "data": "2026-11-12",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D2DCADAF4AD9F88159844FF252DBB12ED0A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/0af963e7-a59d-480f-a6f1-1bed465f642a",
+                "nomeFile": "timbro_body.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-12"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D8386FA328B620DDBF6398A601BA519B5",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Si comunica che il nostro Istituto aderisce anche quest’anno al Premio Asimov. L’iniziativa nasce da un’idea del fisico Francesco Vissani; il Premio è istituito dal Gran Sasso Science Institute (GSSI) con la collaborazione dell’Istituto Nazionale di Fisica Nucleare (INFN). La partecipazione a questo progetto prevede l'attribuzione di 30 ore di Formazione Scuola-Lavoro agli studenti delle classi terze, quarte e quinte che presenteranno una recensione conforme alle richieste del Comitato organizzatore (non solo agli eventuali vincitori). Si allegano le indicazioni operative.",
+            "autore": "G. PACIFICO",
+            "data": "2026-11-12",
+            "dataScadenza": "2027-05-31",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DD4D5E6AC233601D2EE82503EA217FFD85F25361889BD3C4ABEA274BD8746FB8F",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/abd6b9de-f000-4094-8521-0bf0e2c01a4f",
+                "descrizioneFile": "",
+                "nomeFile": "Premio Asimov - Indicazioni operative.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-12"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DE0406C3CA98AFF3C6A67148B0B663D01",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Si comunica che sono aperte le iscrizioni per la partecipazione al Premio Stefano Pace, iniziativa rivolta agli studenti delle classi quarte dell’IIS “Andrea Bafile”. Il Premio intende promuovere la creatività, le capacità progettuali e lo spirito di collaborazione degli studenti, attraverso un'attività di approfondimento e progettazione sui temi dell'innovazione, dell'economia circolare e della sostenibilità ambientale. La partecipazione è riservata a un massimo di 25 studenti, che saranno suddivisi in 5 gruppi di lavoro, ciascuno composto da 5 componenti. Ogni gruppo sarà chiamato a sviluppare e presentare un progetto, mettendo in campo idee, creatività e capacità di collaborazione. Il gruppo vincitore si aggiudicherà un premio di 1.000 euro.\nMODALITÀ DI ISCRIZIONE: Gli studenti interessati dovranno inviare la propria candidatura entro il 21 novembre 2026 al seguente indirizzo di posta elettronica: pcto@bafileaq.com. Si ringrazia per la collaborazione.",
+            "autore": "G. PACIFICO",
+            "data": "2026-11-11",
+            "dataScadenza": "2027-06-30",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [],
+            "operazione": "I",
+            "datEvento": "2026-11-11"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D86EB91EB2112B5C13F5DCA61F8202AB2",
+            "categoria": "Avvisi segreteria alunni",
+            "messaggio": "Assemblea di Istituto 14 novembre 2026 - Errata corrige",
+            "autore": "Direzione/Segreteria",
+            "data": "2026-11-09",
+            "url": "",
+            "isPresaVisione": true,
+            "dataConfermaPresaVisione": "2026-11-09",
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DD573A902EA900DA08E53AF1FD9881D090A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/c79e8000-1145-4d07-9b30-74e56c112e4d",
+                "nomeFile": "timbro_Assemblea di Istituto 14 novembre 2026 - Errata corrige.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-09"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D4DA0332C3F8E344E4AD2F6997D71B8AE",
+            "categoria": "Avvisi segreteria alunni",
+            "messaggio": "Assemblea di Istituto 14 novembre 2026",
+            "autore": "Direzione/Segreteria",
+            "data": "2026-11-09",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DDBD9EFF2DBE43E8355514A8C20D365290A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/6ed97333-3e03-49bd-8efa-cbd423199624",
+                "nomeFile": "timbro_Assemblea di Istituto 14 novembre 2026.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-09"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D20D08BA17E06EE52DEA5CE498ED82456",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Avvio servizio di sportello psicologico.",
+            "autore": "G. PACIFICO",
+            "data": "2026-11-07",
+            "dataScadenza": "2027-06-30",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D32D957B69DF6E5142D28E7FA00AC4DC30A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/fc8a4578-11c2-4821-875f-98b896fc53f4",
+                "descrizioneFile": "",
+                "nomeFile": "timbro_Avvio del servizio di sportello psicologico a.s. 2026-2027.pdf"
+              },
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D32D957B69DF6E5142D28E7FA00AC4DC3F6CD6E82E18F9619DB1796F2CE4ECBB3",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/5de3bc2c-a215-4eee-a2c0-ba381690e3c0",
+                "descrizioneFile": "",
+                "nomeFile": "Servizio di sportello psicologico - Consenso informato per minori.docx"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-07"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D07CFA09A7137080D0CB02B352705FA4F",
+            "categoria": "Avvisi",
+            "messaggio": "Care studentesse e cari studenti, quest’anno il Natale al Liceo Artistico e al Liceo Scientifico si fa green, creativo e decisamente competitivo! Parte il primo *Christmas Contest* della scuola: ogni classe dovrà trasformarsi nel regno di Natale ma con una regola precisa: vale solo il riciclo creativo!\nTutto dovrà essere pronto entro *sabato 28 novembre*, giorno in cui i giudici passeranno a votare l’addobbo che saprà fondere meglio riciclo, ingegno e lavoro di squadra. La classe vincitrice otterrà un vantaggio molto interessante. Si ricorda che, se necessario, sulle pareti potrà essere usato solamente scotch carta e che la posa dell’addobbo non dovrà interferire con lo svolgimento delle lezioni. Ora tocca a voi: collaborate, divertitevi e fate valere il vostro ingegno! Il Dirigente Scolastico.",
+            "autore": "G. PACIFICO",
+            "data": "2026-11-07",
+            "dataScadenza": "2026-12-20",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [],
+            "operazione": "I",
+            "datEvento": "2026-11-07"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D3E223C2786DBFD2096C032D3B5134319",
+            "categoria": "Avviso Vicepresidenza",
+            "messaggio": "Si comunica che lunedì 9 novembre 2026, alle ore 13:40, avrà inizio il corso extracurricolare \"Introduzione alla programmazione Python\". Le lezioni si terranno in Aula magna. Si allegano il programma del corso e l’elenco degli studenti partecipanti. Si ringrazia per la collaborazione. ",
+            "autore": "G. PACIFICO",
+            "data": "2026-11-07",
+            "dataScadenza": "2027-01-31",
+            "url": "",
+            "isPresaVisione": false,
+            "isPresaAdesioneConfermata": false,
+            "adRichiesta": false,
+            "pvRichiesta": true,
+            "listaAllegati": [
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D87FD401A9015240B42D7E506B70E096F0A9F002A8910775AF650CEBEF0BFD5EB",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/98eadc2b-4f4f-447d-8b85-81e7aee0d457",
+                "descrizioneFile": "",
+                "nomeFile": "Programma Corso Python.pdf"
+              },
+              {
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D87FD401A9015240B42D7E506B70E096F5F25361889BD3C4ABEA274BD8746FB8F",
+                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
+                "path": "SS27735/WSX/BACHECA/2026/11/1963d6f4-a531-41f1-b3c8-bed00c0a25d0",
+                "descrizioneFile": "",
+                "nomeFile": "Iscritti Corso Python.pdf"
+              }
+            ],
+            "operazione": "I",
+            "datEvento": "2026-11-07"
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D18ADAB23D93988ADEC2F8D9D04424604",
             "categoria": "Avviso Vicepresidenza",
             "messaggio": "Proclamazione Alunni eletti nei Consigli di Classe a.s. 2026/2027",
@@ -530,22 +752,6 @@
                 "nomeFile": "Laboratorio Informatica Open Day - Informativa.pdf"
               }
             ],
-            "operazione": "I",
-            "datEvento": "2026-10-31"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D302950C5D4326081BFAA241AD1366C15",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Come di consueto ogni anno il nostro Istituto è lieto di ospitare un gruppo di docenti e studenti stranieri, nell'ambito dei progetti di partenariato Erasmus+. La prossima settimana un gruppo di 8 studenti accompagnati da 2 docenti provenienti dalle isole Azzorre, saranno in visita nel nostro Istituto e parteciperanno alle attività culturali insieme agli studenti aquilani che li ospiteranno presso le proprie famiglie. In particolare, gli studenti e le studentesse delle Azzorre saranno inseriti nelle prime due ore dei  giorni 3, 4 e 5 Novembre nelle seguenti classi degli studenti ospitanti: 4A SA, 4B, 4C, 4C SA, 4D, 4E, 4I. Si ringrazia per la collaborazione e l'ospitalità che ognuno a proprio modo vorrà dimostrare.\n",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-31",
-            "dataScadenza": "2026-11-07",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
             "operazione": "I",
             "datEvento": "2026-10-31"
           },
@@ -744,22 +950,6 @@
             ],
             "operazione": "I",
             "datEvento": "2026-10-17"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D8B33FEA99C097A144A5F89B3BBC27101",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che martedì 27 ottobre 2026 inizierà il corso di formazione sulla didattica del Debate, della durata di 12 ore, tenuto dalla prof.ssa Anna Migliarini dell'Hubabruzzo. Gli incontri si terranno dalle ore 13:30 alle ore 16:30 presso il nostro Istituto. Il corso è aperto sia agli studenti che ai docenti. A seguire, sempre di martedì, si svolgeranno le esercitazioni dei Circoli Debate (sia in lingua italiana che in lingua inglese), dalle ore 13:30 alle ore 15:30, per un massimo di 10 incontri. Per ulteriori informazioni e per l’adesione al progetto è possibile rivolgersi alla prof.ssa Luciana De Paolis, cercandola a scuola o scrivendole una mail all’indirizzo luciana.depaolis@bafileaq.com. Le adesioni vanno comunicate alla prof.ssa De Paolis entro lunedì 26 ottobre 2026. Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-10-16",
-            "dataScadenza": "2026-10-31",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-10-16"
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DA3EBEBF6062946AA54BFDF1D5EACD95D",
@@ -1054,22 +1244,6 @@
             "datEvento": "2026-10-01"
           },
           {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D00D6D6900E49C767D33999490FD47FD6",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si comunica che da domani, giovedì 1° ottobre 2026, le classi sottoelencate saranno interessate dai seguenti cambiamenti di aula: la classe 4B SA si sposterà nell'aula 69 (Piano terzo Corpo D) e la classe 5B nell'aula 79 (Piano terzo Corpo E). Si ringrazia per la collaborazione.",
-            "autore": "G. PACIFICO",
-            "data": "2026-09-30",
-            "dataScadenza": "2026-10-31",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [],
-            "operazione": "I",
-            "datEvento": "2026-09-30"
-          },
-          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115DBFCF3221E4B939BDA189373F68881F76",
             "categoria": "Comunicazioni segreteria alunni",
             "messaggio": "Erasmus Azzorre - alle famiglie degli studenti - classi quarte",
@@ -1097,30 +1271,6 @@
             ],
             "operazione": "I",
             "datEvento": "2026-09-28"
-          },
-          {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D62E89022D7EA93E9387A8DDAC54DBDBE",
-            "categoria": "Avviso Vicepresidenza",
-            "messaggio": "Si invia, in allegato, il nuovo orario delle lezioni del Liceo Scientifico (in vigore dal 28 settembre 2026).",
-            "autore": "G. PACIFICO",
-            "data": "2026-09-26",
-            "dataScadenza": "2026-10-31",
-            "url": "",
-            "isPresaVisione": false,
-            "isPresaAdesioneConfermata": false,
-            "adRichiesta": false,
-            "pvRichiesta": true,
-            "listaAllegati": [
-              {
-                "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D872C20CB3B0FFF807AFA5A94573CA8BA2156ABC1C3DED5A85154BE12268ECCE9",
-                "url": "https://s3.eu-south-1.amazonaws.com/produzione-eu-south-1-files-repo",
-                "path": "SS27735/WSX/BACHECA/2026/09/8b7db54c-2ced-4a15-bbd3-22bc8234e8b8",
-                "descrizioneFile": "",
-                "nomeFile": "Liceo Scientifico - Orario classi dal 28 settembre 2026.pdf"
-              }
-            ],
-            "operazione": "I",
-            "datEvento": "2026-09-26"
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AE05C5A1EB5989E93A9AD5198EE28D7A45A9A1A8F0D0C86FE140AB870763C115D5A4D1EF3E570DAAC4C76FC11106F7227",
@@ -1415,6 +1565,81 @@
         },
         "voti": [
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423DA5D42EB110F1882D5FEF32646C5872133025704CD618F4CDBD5C5C8C814386EE00B143F38BF01B4EF648A2583D306AEF4E4110C0569532054E2514D5922212166177FB3831DB9B2E7468B2D7DF22C076E84ED268120D0BCF70F182662DC5AB1298A30F4038FFBE4D067D9DCBE69E5B6",
+            "codTipo": "V",
+            "codCodice": "6½",
+            "prgVoto": 1,
+            "codVotoPratico": "N",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "desMateria": "DISEGNO E STORIA DELL'ARTE",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "datGiorno": "2026-11-16",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 38
+              },
+              "codMateria": "DIS",
+              "desDescrizione": "DISEGNO E STORIA DELL'ARTE",
+              "desDescrAbbrev": "DISEGNO ST. ARTE",
+              "codSuddivisione": "OG",
+              "codTipo": "NO",
+              "flgConcorreMedia": "S",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9"
+            },
+            "mese": 11,
+            "valore": 6.5,
+            "numMedia": 1,
+            "descrizioneVoto": "sei e mezzo",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-11-16"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423DA5D42EB110F1882D5FEF32646C5872133025704CD618F4CDBD5C5C8C814386EE00B143F38BF01B4EF648A2583D306AE8A9C7308F6AC9AE5D89D66A813362EA121B908036375FB48964E544A9B3593096E84ED268120D0BCF70F182662DC5AB10071965DA0301AD94F00415997E037B7",
+            "codTipo": "V",
+            "codCodice": "8",
+            "prgVoto": 1,
+            "codVotoPratico": "S",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "desMateria": "DISEGNO E STORIA DELL'ARTE",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "datGiorno": "2026-10-26",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 38
+              },
+              "codMateria": "DIS",
+              "desDescrizione": "DISEGNO E STORIA DELL'ARTE",
+              "desDescrAbbrev": "DISEGNO ST. ARTE",
+              "codSuddivisione": "OG",
+              "codTipo": "NO",
+              "flgConcorreMedia": "S",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9"
+            },
+            "mese": 10,
+            "valore": 8,
+            "numMedia": 1,
+            "descrizioneVoto": "otto",
+            "descrizioneProva": "TAV. 1",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-10-26"
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423367BF08BBFD72B0DB2023EBB1EB8A17BA4FAD4BAEAA25F36D9C931FFC0BBCDD31058CD619730FEE68C8CE91F1A901B27A097FD33CFE2F1875B0AB049D0119DAAEAED73F3FB146558468C25187ADF6BFC6E84ED268120D0BCF70F182662DC5AB1298A30F4038FFBE4D067D9DCBE69E5B6",
             "codTipo": "V",
             "codCodice": "8½",
@@ -1529,6 +1754,46 @@
             "faMenoMedia": "",
             "operazione": "I",
             "datEvento": "2026-10-17"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF9774233FCD0A2CA78C724F3E81407C30108E101A011F96AB0E298DEBF895F9FEF8AD7DBDBBD121763AC11175448C0BFC0DDE23B818C4B0C20954AD034110296F2D234253EA05394BE20685B32FD6BD6CAC0211C7FD90D5362F38BAF427AAF1E00DACAE86FD33AB0CD1F10D914A35E9E9FD466D",
+            "codTipo": "V",
+            "codCodice": "8½",
+            "prgVoto": 1,
+            "codVotoPratico": "N",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "desMateria": "LINGUA E CULTURA INGLESE",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "datGiorno": "2026-11-13",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 28
+              },
+              "codMateria": "ING",
+              "desDescrizione": "LINGUA E CULTURA INGLESE",
+              "desDescrAbbrev": "LINGUA E CULT. INGL.",
+              "codSuddivisione": "SO",
+              "codTipo": "LS",
+              "flgCongelata": "N",
+              "flgConcorreMedia": "S",
+              "codMinisteriale": "M461",
+              "desClasseConcorso": "AB24",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9"
+            },
+            "mese": 11,
+            "valore": 8.5,
+            "numMedia": 1,
+            "descrizioneVoto": "otto e mezzo",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-11-13"
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF9774233FCD0A2CA78C724F3E81407C30108E101A011F96AB0E298DEBF895F9FEF8AD7DBDBBD121763AC11175448C0BFC0DDE2334DE21A09B666337086F1A448169066B1A8AB91D9E1CE83358B077B7FD596A5B10AAC6404E59AA5A07DA90DBD34D4E767EF9A898CBF6A30A9C5B68E5D515349A",
@@ -1652,6 +1917,87 @@
             "datEvento": "2026-10-09"
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423D9D3DB56C8237AD9C52345D29C48E5F5529B7D61A93945026E1FAB78673C29B0CE2662A045CF56390DBC1245FAB0B9806C674E9B6A5BBD26E376D83D2CEA25EC66177FB3831DB9B2E7468B2D7DF22C076E84ED268120D0BCF70F182662DC5AB1298A30F4038FFBE4D067D9DCBE69E5B6",
+            "codTipo": "V",
+            "codCodice": "8",
+            "prgVoto": 1,
+            "codVotoPratico": "N",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "desMateria": "MATEMATICA",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "datGiorno": "2026-11-06",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 4
+              },
+              "codMateria": "MAT",
+              "desDescrizione": "MATEMATICA",
+              "desDescrAbbrev": "MATEMATICA",
+              "codSuddivisione": "SO",
+              "codTipo": "NO",
+              "flgCongelata": "N",
+              "flgConcorreMedia": "S",
+              "codMinisteriale": "M557",
+              "desClasseConcorso": "A049",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3"
+            },
+            "mese": 11,
+            "valore": 8,
+            "numMedia": 1,
+            "descrizioneVoto": "otto",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "Interrogazione ",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-11-06"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423D9D3DB56C8237AD9C52345D29C48E5F5529B7D61A93945026E1FAB78673C29B0CE2662A045CF56390DBC1245FAB0B9803AFABEAABCEF988A0225232F8AAA076E21B908036375FB48964E544A9B359309C20E84F52B70C334BD9F3223B704F1B4F8834E33F7C5F6F419A206EA84D34AA2",
+            "codTipo": "V",
+            "codCodice": "9,25",
+            "prgVoto": 15,
+            "codVotoPratico": "S",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "desMateria": "MATEMATICA",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "datGiorno": "2026-10-30",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 4
+              },
+              "codMateria": "MAT",
+              "desDescrizione": "MATEMATICA",
+              "desDescrAbbrev": "MATEMATICA",
+              "codSuddivisione": "SO",
+              "codTipo": "NO",
+              "flgCongelata": "N",
+              "flgConcorreMedia": "S",
+              "codMinisteriale": "M557",
+              "desClasseConcorso": "A049",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3"
+            },
+            "mese": 10,
+            "valore": 9.25,
+            "numMedia": 1,
+            "descrizioneVoto": " ",
+            "descrizioneProva": "compito di matematica",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-10-30"
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF9774236EC61BB9CA080C1139F525F575FE70E69730F76EC3874032A3E3199020199B89A6FC713DA5536A03B1354AC93D116D5EA1338F1FB5CD166C88C60CBFA15F7D78BE4A6F74EEAA264F004A8AB3218ACC55C7FD90D5362F38BAF427AAF1E00DACAE86FD33AB0CD1F10D914A35E9E9FD466D",
             "codTipo": "V",
             "codCodice": "7½",
@@ -1728,6 +2074,46 @@
             "faMenoMedia": "",
             "operazione": "I",
             "datEvento": "2026-10-07"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF977423367BF08BBFD72B0DB2023EBB1EB8A17BA4FAD4BAEAA25F36D9C931FFC0BBCDD3806353AAD93EBD6C441AA0C4999D1B74494F825D3AD39F818EE8469E49BC61A6402D0CF692937D5546085BC25BBEC542C7FD90D5362F38BAF427AAF1E00DACAE86FD33AB0CD1F10D914A35E9E9FD466D",
+            "codTipo": "V",
+            "codCodice": "8+",
+            "prgVoto": 1,
+            "codVotoPratico": "N",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "desMateria": "STORIA",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "datGiorno": "2026-11-12",
+            "materia": {
+              "tscuMateriePK": {
+                "codMin": "SS27735",
+                "prgScuola": 2,
+                "numAnno": 2026,
+                "prgMateria": 14
+              },
+              "codMateria": "STO",
+              "desDescrizione": "STORIA",
+              "desDescrAbbrev": "STORIA",
+              "codSuddivisione": "O",
+              "codTipo": "NO",
+              "flgCongelata": "N",
+              "flgConcorreMedia": "S",
+              "codMinisteriale": "M810",
+              "desClasseConcorso": "A050",
+              "scrutinabile": false,
+              "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9"
+            },
+            "mese": 11,
+            "valore": 8.15,
+            "numMedia": 1,
+            "descrizioneVoto": "otto +",
+            "pkPeriodo": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A834937907534C4E8AF6DB675FDE4EEDBB2BD04D47BEED7B62E69383B317AB0C498956EE91157CAA12CD9AF873906A936BF544F0AA5AB",
+            "desCommento": "",
+            "faMenoMedia": "",
+            "operazione": "I",
+            "datEvento": "2026-11-12"
           }
         ],
         "ricaricaDati": true,
@@ -1858,7 +2244,7 @@
         "profiloDisabilitato": false,
         "mediaPerPeriodo": {
           "1Q": {
-            "mediaGenerale": 8.05,
+            "mediaGenerale": 8.02,
             "listaMaterie": {
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3": {
                 "numValutazioniOrale": 1,
@@ -1900,6 +2286,16 @@
                 "numValutazioniScritto": 0,
                 "mediaOrale": 8
               },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9": {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.15,
+                "mediaScritta": 0,
+                "numVoti": 1,
+                "sumValori": 8.15,
+                "numValori": 0,
+                "numValutazioniScritto": 0,
+                "mediaOrale": 8.15
+              },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3": {
                 "numValutazioniOrale": 1,
                 "mediaMateria": 7.85,
@@ -1911,14 +2307,34 @@
                 "mediaOrale": 7.85
               },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9": {
-                "numValutazioniOrale": 0,
-                "mediaMateria": 8.85,
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.68,
                 "mediaScritta": 8.85,
-                "numVoti": 1,
-                "sumValori": 8.85,
+                "numVoti": 2,
+                "sumValori": 17.35,
                 "numValori": 0,
                 "numValutazioniScritto": 1,
-                "mediaOrale": 0
+                "mediaOrale": 8.5
+              },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3": {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.62,
+                "mediaScritta": 9.25,
+                "numVoti": 2,
+                "sumValori": 17.25,
+                "numValori": 0,
+                "numValutazioniScritto": 1,
+                "mediaOrale": 8
+              },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9": {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 7.25,
+                "mediaScritta": 8,
+                "numVoti": 2,
+                "sumValori": 14.5,
+                "numValori": 0,
+                "numValutazioniScritto": 1,
+                "mediaOrale": 6.5
               },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9": {
                 "numValutazioniOrale": 1,
@@ -1932,7 +2348,8 @@
               }
             },
             "mediaMese": {
-              "10": 8.05
+              "10": 8.18,
+              "11": 7.79
             }
           },
           "SF": {
@@ -1978,6 +2395,16 @@
                 "numValutazioniScritto": 0,
                 "mediaOrale": 0
               },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9": {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3": {
                 "numValutazioniOrale": 0,
                 "mediaMateria": 0,
@@ -1989,6 +2416,26 @@
                 "mediaOrale": 0
               },
               "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9": {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3": {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
+              "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9": {
                 "numValutazioniOrale": 0,
                 "mediaMateria": 0,
                 "mediaScritta": 0,
@@ -2045,6 +2492,14 @@
             "numValori": 0,
             "mediaOrale": 8
           },
+          "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9": {
+            "mediaMateria": 8.15,
+            "mediaScritta": 0,
+            "sumValori": 8.15,
+            "numVoti": 1,
+            "numValori": 0,
+            "mediaOrale": 8.15
+          },
           "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3": {
             "mediaMateria": 7.85,
             "mediaScritta": 0,
@@ -2054,12 +2509,28 @@
             "mediaOrale": 7.85
           },
           "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9": {
-            "mediaMateria": 8.85,
+            "mediaMateria": 8.68,
             "mediaScritta": 8.85,
-            "sumValori": 8.85,
-            "numVoti": 1,
+            "sumValori": 17.35,
+            "numVoti": 2,
             "numValori": 0,
-            "mediaOrale": 0
+            "mediaOrale": 8.5
+          },
+          "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3": {
+            "mediaMateria": 8.62,
+            "mediaScritta": 9.25,
+            "sumValori": 17.25,
+            "numVoti": 2,
+            "numValori": 0,
+            "mediaOrale": 8
+          },
+          "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9": {
+            "mediaMateria": 7.25,
+            "mediaScritta": 8,
+            "sumValori": 14.5,
+            "numVoti": 2,
+            "numValori": 0,
+            "mediaOrale": 6.5
           },
           "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9": {
             "mediaMateria": 7.5,
@@ -2157,7 +2628,7 @@
             "operazione": "I",
             "datEvento": "2026-10-19",
             "ora": 3,
-            "attivita": "",
+            "attivita": "Il Rinascimento e la nuova visione dell'uomo. La Chiesa nel Rinascimento.",
             "compiti": []
           },
           {
@@ -2174,6 +2645,41 @@
             "ora": 3,
             "attivita": "",
             "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C436C0F704C753F8DE7B56E0FFB06A7D14B1058CD619730FEE68C8CE91F1A901B27411A6A37BB874E0BC5CD3F74C09CDC9C8EE3EC67D434F92329FF1429EA4DD471",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FEA13468F7C349C7120DBA7AC6240EF62D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "RELIGIONE CATTOLICA O ATTIVITA' ALTERNATIVA",
+            "datGiorno": "2026-11-02",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855648A8ABEDA43F662CCF790F62D0AC484A9",
+            "docente": "L. DI LUCA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-02",
+            "ora": 3,
+            "attivita": "La Chiesa nel XVI secolo tra divisioni e riforme. Riforma Protestante: cause religiose; cause politiche e sociali",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C436C0F704C753F8DE7B56E0FFB06A7D14B1058CD619730FEE68C8CE91F1A901B27F4E4110C0569532054E2514D592221218EE3EC67D434F92329FF1429EA4DD471",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FEA13468F7C349C7120DBA7AC6240EF62D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "RELIGIONE CATTOLICA O ATTIVITA' ALTERNATIVA",
+            "datGiorno": "2026-11-16",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855648A8ABEDA43F662CCF790F62D0AC484A9",
+            "docente": "L. DI LUCA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-16",
+            "ora": 3,
+            "attivita": "Riforma protestante: principi teologici della Riforma. Sui cambiamenti nelle pratiche religiose",
+            "compiti": [
+              {
+                "compito": "Portare libro di testo",
+                "dataConsegna": "2026-11-23"
+              }
+            ]
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB24AC756C7E30C615E7E29331A4AC8B1221ABBD06EAF5EBF2E1BE2046BC196761F",
@@ -2472,6 +2978,66 @@
             "datEvento": "2026-10-27",
             "ora": 5,
             "attivita": "verifiche.le forme di governo in Aristotele",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB274AD3D62EC72AA719BF8C57876C410301ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FILOSOFIA",
+            "datGiorno": "2026-11-03",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-03",
+            "ora": 4,
+            "attivita": "verifiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB274AD3D62EC72AA719BF8C57876C410302AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FILOSOFIA",
+            "datGiorno": "2026-11-03",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-03",
+            "ora": 5,
+            "attivita": "verifiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB24C98EB3BEA6A4B19339D9EB668D467781ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FILOSOFIA",
+            "datGiorno": "2026-11-10",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-10",
+            "ora": 4,
+            "attivita": "verifiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE3A459107FBFA871ACFE6BA6C626A8A6A7498031374D8531527CA306125B71AB24C98EB3BEA6A4B19339D9EB668D467782AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FILOSOFIA",
+            "datGiorno": "2026-11-10",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-10",
+            "ora": 5,
+            "attivita": "La filosofia cristiana:Fede  e ragione",
             "compiti": []
           },
           {
@@ -2955,6 +3521,151 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B64472081949E55D12CB269231329F150BF2211ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-02",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-02",
+            "ora": 4,
+            "attivita": "Secante e cosecante di un angolo\nFunzione arcoseno",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B6447274AD3D62EC72AA719BF8C57876C41030B72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-03",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-03",
+            "ora": 1,
+            "attivita": "Funzione arcocoseno e arcotangente",
+            "compiti": [
+              {
+                "compito": "Es. Pag. 66 n. 399,401,402,404,406,407,408,411,412",
+                "dataConsegna": "2026-11-06"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B64472FDA13D8B98D93C462C248C9A7B12B9DCB72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-06",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-06",
+            "ora": 1,
+            "attivita": "Interrogazione \nRecupero del compito di matematica ",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B64472FDA13D8B98D93C462C248C9A7B12B9DCA96134E96D39E25BCAB90951139B3E35",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-06",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-06",
+            "ora": 2,
+            "attivita": "Recupero del compito di matematica ",
+            "compiti": [
+              {
+                "compito": "Es. Pag. 83 C n. 1,4,5",
+                "dataConsegna": "2026-11-09"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B644724C98EB3BEA6A4B19339D9EB668D46778B72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-10",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-10",
+            "ora": 1,
+            "attivita": "Correzione esercizio per casa \nApplicazioni alla geometria analitica\n",
+            "compiti": [
+              {
+                "compito": "Es. Pag. 52 n. 179,182,183,186\nPag. 68 n. 429,431,456,457,459",
+                "dataConsegna": "2026-11-13"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B644727A6DBFBDB221DD9BB09695A026A56FACB72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-13",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-13",
+            "ora": 1,
+            "attivita": "Riconsegna e correzione del compito di matematica ",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B644727A6DBFBDB221DD9BB09695A026A56FACA96134E96D39E25BCAB90951139B3E35",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-13",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-13",
+            "ora": 2,
+            "attivita": "Funzioni sinusoidali, periodo di una funzione",
+            "compiti": [
+              {
+                "compito": "Es. Pag. 60 n. 288,290,292,295,296,297",
+                "dataConsegna": "2026-11-16"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB23A459107FBFA871ACFE6BA6C626A8A6AC1DFB29C02A5234EFEE1D52BB0B644724742B4E2730AB88A91E1F00037D6B0F31ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "MATEMATICA",
+            "datGiorno": "2026-11-16",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-16",
+            "ora": 4,
+            "attivita": "Riconsegna compiti in classe\nFormula di sottrazione del coseno",
+            "compiti": [
+              {
+                "compito": "Es. Pag. 76 n. 583,587,596",
+                "dataConsegna": "2026-11-17"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB009168C5BB5DBB87943C5F39F9376E6487ED2AFF0A7FD2CF7CC427C633C57893713A",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
@@ -3340,6 +4051,101 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB00917700A8CB67795114F19EE0BD0C0A157A2AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-11-04",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-04",
+            "ora": 5,
+            "attivita": "Svolgimento collegiale guidato degli es. pag. 408 n.100 e pag. 436 n. 14. Verifica orale. ",
+            "compiti": [
+              {
+                "compito": "Approfondire l'esercizio pag. 408 n. 100 con le indicazioni date in classe, svolgere il pb. pag. 436 n.16.",
+                "dataConsegna": "2026-11-05"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB0091A2B4A9B5EA20B33D301A51E1838C0D272AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-05",
+            "ora": 5,
+            "attivita": "Verifiche orali.",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB0091B45BF3E9F7E57803A86191C967A4BC702C2668D6A70FC2C63CB25511EDCDD751",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-11-07",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-07",
+            "ora": 3,
+            "attivita": "Verifiche orali. Termologia: introduzione alla propagazione del calore; la conduzione.",
+            "compiti": [
+              {
+                "compito": "- Libro di testo Amaldi blu v.1: studiare pag. 452;\n- Classroom: rispondi sul quaderno alle domande riportate nel file dal titolo \"Questionario su propagazione del calore per 11.11.26\".",
+                "dataConsegna": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB00913AA0CBDCE5F5ED6FD3E61A76A66D34642AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-11-11",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-11",
+            "ora": 5,
+            "attivita": "Correzione del questionario sulla propagazione del calore assegnato per casa. Recap sulla conduzione del calore. Convezione e irraggiamento; legge di Stefan-Boltzmann.",
+            "compiti": [
+              {
+                "compito": "Amaldi 1:\n- studiare da pag. 452 a 455 TUTTE;\n- problemi pag. 479 n. 27 e pag. 480 n. 36.",
+                "dataConsegna": "2026-11-12"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA219E1B2BB94892283C75D68D281B27B183A459107FBFA871ACFE6BA6C626A8A6AC84741607BE41C69198299F180DB00916E9EDC69C638B7EF0F2E5C26397BA0E32AFF0A7FD2CF7CC427C633C57893713A",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1FA18ABCD3948C625C5FBA7C483CDC7422D1F1D2D47E45C338E3718BDAEC85CC3",
+            "materia": "FISICA SCRITTO E ORALE",
+            "datGiorno": "2026-11-12",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564957AD9ABC36E2B3A697184F14070AA8F",
+            "docente": "C. MUCCIANTE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-12",
+            "ora": 5,
+            "attivita": "Verifiche orali. Problemi su conduzione e irraggiamento in modalità cooperative learning (pag. 479 n. 33, pag. 480 n. 38).",
+            "compiti": [
+              {
+                "compito": "- LIBRO DI TESTO AMALDI Vol.1: pb. pag. 480 n. 43 (facoltativo).\n- CLASSROOM: rispondere SUL QUADERNO alle domande proposte nel file dal titolo \"Questionario su conduzione termica per 18.11.26\".",
+                "dataConsegna": "2026-11-18"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E04B77CD46051B3059C8D9FC68F7A8EDC0D1571E7B27F0E68CED33235BB3E4F942",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
@@ -3598,6 +4404,71 @@
                 "dataConsegna": "2026-11-07"
               }
             ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E0F8E05A2A02F40652E1E5BF9A18D17D32D1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
+            "materia": "INFORMATICA",
+            "datGiorno": "2026-11-07",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855642EE729857C976A220EC3AC45187B31F0",
+            "docente": "V. MILANI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-07",
+            "ora": 1,
+            "attivita": "Dal modello E/R al modello relazionale: regole di derivazione dell'associazione 1:N. Esempio di uso: modello logico-relazione del DB Magazzino",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E0F8E05A2A02F40652E1E5BF9A18D17D32B18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
+            "materia": "INFORMATICA",
+            "datGiorno": "2026-11-07",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855642EE729857C976A220EC3AC45187B31F0",
+            "docente": "V. MILANI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-07",
+            "ora": 2,
+            "attivita": "Gli alunni: Properzi, Ciocca, Giuliani, Ianni e Laglia recuperano la verifica pratica. Implementazione in Access del DB Magazzino visto in classe: creazione delle tabelle e delle relazioni tra tabelle",
+            "compiti": [
+              {
+                "compito": "Studiare pag 397 e 398 e le dispense e  fare gli esercizi assegnati su clasroom",
+                "dataConsegna": "2026-11-14"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C43095DDA6AA175C0B46427D52B68972494899971735E1F8E731FAF4BEE3FFB89E0BFBA7F056A84BD0321BD6A5735D0765AD1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
+            "materia": "INFORMATICA",
+            "datGiorno": "2026-11-14",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855642EE729857C976A220EC3AC45187B31F0",
+            "docente": "V. MILANI",
+            "isFirmato": false,
+            "operazione": "I",
+            "datEvento": "2026-11-14",
+            "ora": 1,
+            "attivita": "Assemblea d'Istituto\n",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F367530015FDA376A08A6C2D99C2F0EF24A77A2B4A9B5EA20B33D301A51E1838C0D271ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556497205C27F61476DB8948FA7936C2280B",
+            "docente": "C. ARA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-05",
+            "ora": 4,
+            "attivita": "Studio individuale.",
+            "compiti": []
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA68DFEA01B6F033204B5ADAC61BEA0AF1460EE515B84A75923B14A30C447F5386",
@@ -4169,6 +5040,215 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA1C825CDAA9AED0B38B31D12E8C5D3B8E460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-02",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-02",
+            "ora": 5,
+            "attivita": "Verifiche orali",
+            "compiti": [
+              {
+                "compito": "Esercitarsi sulle verifiche interattive di allenamento pubblicate sulla classroom",
+                "dataConsegna": "2026-11-03"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA3B6E0FC2BFCEA568FACD9F3E2526C4277D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-03",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-03",
+            "ora": 3,
+            "attivita": "Riassunto e ripasso degli argomenti della verifica scritta",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA2A6A89CEF5FD9F831E890AD61C25AED4D1571E7B27F0E68CED33235BB3E4F942",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-04",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": false,
+            "operazione": "I",
+            "datEvento": "2026-11-04",
+            "ora": 1,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA2A6A89CEF5FD9F831E890AD61C25AED4B18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-04",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-04",
+            "ora": 2,
+            "attivita": "VERIFICA SCRITTA: le forze intermolecolari e la velocità di reazione.",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA2A6A89CEF5FD9F831E890AD61C25AED47D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-04",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-04",
+            "ora": 3,
+            "attivita": "VERIFICA SCRITTA: le forze intermolecolari e la velocità di reazione.",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA93038422AA92433BCD989779D08F4557D1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-05",
+            "ora": 1,
+            "attivita": "GEOLOGIA: le rocce e il ciclo litogenico. Le rocce magmatiche.",
+            "compiti": [
+              {
+                "compito": "GEOLOGIA: studiare fino a pag.42 ",
+                "dataConsegna": "2026-11-09"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCAD55348A0F53BDBBC7479A46D733EF0DC460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-09",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-09",
+            "ora": 5,
+            "attivita": "GEOLOGIA: le rocce magmatica: caratteristiche e formazione",
+            "compiti": [
+              {
+                "compito": "GEOSCIENZE: studiare fino a pag. 42, fare riferimento alle slide condivise sulla classroom.",
+                "dataConsegna": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA7C605CBBFCF1D7D2A0BEC33E5792BC0C7D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-10",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-10",
+            "ora": 3,
+            "attivita": "CHIMICA: L'equilibrio dinamico, reazioni reversibili e costante dell'azione di massa",
+            "compiti": [
+              {
+                "compito": "CHIMICA: studiare fino a pag. 491, esercizi a pag. 506 dal n. 1 al n. 4, n.7-8-9-12 e dal n. 16 al n.19",
+                "dataConsegna": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA3F7769B501DAF78FE766A268ED3371F2D1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-11",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-11",
+            "ora": 1,
+            "attivita": "Verifiche orali",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCA3F7769B501DAF78FE766A268ED3371F2B18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-11",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-11",
+            "ora": 2,
+            "attivita": "CHIMICA: la costante di equilibrio in fase gassosa Kp",
+            "compiti": [
+              {
+                "compito": "CHIMICA: studiare fino a pag. 492, risolvere problemi a pag. 507 n. 20-21-22",
+                "dataConsegna": "2026-11-12"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCAF64BFEC80E5FB07CFAB1D40433C7C3F1D1571E7B27F0E68CED33235BB3E4F942",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-12",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-12",
+            "ora": 1,
+            "attivita": "CHIMICA: calcolo delle concentrazioni in una reazione all'equilibro.",
+            "compiti": [
+              {
+                "compito": "CHIMICA: studiare fino a pag. 493 risolvere i problemi a pag. 507 n. 27-28-29-32",
+                "dataConsegna": "2026-11-18"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C434B58D809C26D28F377938959B00F36758FD3D81F27C7ECBB4D71B7AC74491DCAF7109A8BA56CD1AF063FF8A603EA5230460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1312F4D72E0DC5C7B60488467F7D0817802144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE NATURALI",
+            "datGiorno": "2026-11-16",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE8556434E56CBCFA90AA46ACF73E58E0D6B54A",
+            "docente": "S. BACCELLA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-16",
+            "ora": 5,
+            "attivita": "Assemblea di classe",
+            "compiti": []
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF720B899DE8AD12CCADA67453C979733C4C7D0AFAE5569326DBEB8A2373ACD0E177",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
@@ -4292,6 +5372,65 @@
                 "dataConsegna": "2026-11-04"
               }
             ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF722A6A89CEF5FD9F831E890AD61C25AED47D0AFAE5569326DBEB8A2373ACD0E177",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "STORIA",
+            "datGiorno": "2026-11-04",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": false,
+            "operazione": "I",
+            "datEvento": "2026-11-04",
+            "ora": 3,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF7293038422AA92433BCD989779D08F4557B18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "STORIA",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-05",
+            "ora": 2,
+            "attivita": "verifiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF723F7769B501DAF78FE766A268ED3371F27D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "STORIA",
+            "datGiorno": "2026-11-11",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-11",
+            "ora": 3,
+            "attivita": "verifiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA29F3FC8DB737B58BBB8ED2FC941CB0C4355B80A6F711E791FBF14805DA5D56C791AB445608CD998F59169658120D2BF72F64BFEC80E5FB07CFAB1D40433C7C3F1B18B85B0F686EB6C24253DF8D583A7F0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "STORIA",
+            "datGiorno": "2026-11-12",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855640969977DB303015CF7B7A64A225D3083",
+            "docente": "E. RIGHETTI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-12",
+            "ora": 2,
+            "attivita": "verifiche",
+            "compiti": []
           },
           {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952094AC756C7E30C615E7E29331A4AC8B122A96134E96D39E25BCAB90951139B3E35",
@@ -4750,6 +5889,161 @@
             "compiti": []
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F8676469520974AD3D62EC72AA719BF8C57876C41030A96134E96D39E25BCAB90951139B3E35",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-03",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-03",
+            "ora": 2,
+            "attivita": "L'illuminismo: il contesto storico-culturale.\nIl ritorno alla Ragione. I fondamenti del pensiero illuminista.. L'Enciclopedia.",
+            "compiti": [
+              {
+                "compito": "studiare pp. 136-143",
+                "dataConsegna": "2026-11-10"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952097700A8CB67795114F19EE0BD0C0A157A1ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-04",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-04",
+            "ora": 4,
+            "attivita": "Commedia, Inf:  conclusione canto XXXIII",
+            "compiti": [
+              {
+                "compito": "Commedia, Inf:  conclusione canto XXXIII",
+                "dataConsegna": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F86764695209FDA13D8B98D93C462C248C9A7B12B9DC2C2668D6A70FC2C63CB25511EDCDD751",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-06",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-06",
+            "ora": 3,
+            "attivita": "verifica scritta",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F86764695209FDA13D8B98D93C462C248C9A7B12B9DC1ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-06",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-06",
+            "ora": 4,
+            "attivita": "verifica scritta",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952094C98EB3BEA6A4B19339D9EB668D46778A96134E96D39E25BCAB90951139B3E35",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-10",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-10",
+            "ora": 2,
+            "attivita": "Conclusione verifica scritta.\nDenis Diderot, Eclettismo filosofico",
+            "compiti": [
+              {
+                "compito": "Denis Diderot, Eclettismo filosofico, p.173-175",
+                "dataConsegna": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952093AA0CBDCE5F5ED6FD3E61A76A66D34641ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-11",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-11",
+            "ora": 4,
+            "attivita": "verifica orale.\nVoltaire, Candido o l'ottismo",
+            "compiti": [
+              {
+                "compito": "Voltaire, Candido o l'ottismo, pp.178-183",
+                "dataConsegna": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952097A6DBFBDB221DD9BB09695A026A56FAC2C2668D6A70FC2C63CB25511EDCDD751",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-13",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-13",
+            "ora": 3,
+            "attivita": "Attività conclusiva laboratorio Pretext",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F867646952097A6DBFBDB221DD9BB09695A026A56FAC1ABBD06EAF5EBF2E1BE2046BC196761F",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-13",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-13",
+            "ora": 4,
+            "attivita": "Attività conclusiva laboratorio Pretext",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D32092F30D18E3C547134C360BED1776F96C0AD3128C16F25E383877F8676469520914F6515D1AA58BFB98D7456F006D0C8A2C2668D6A70FC2C63CB25511EDCDD751",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E LETTERATURA ITALIANA",
+            "datGiorno": "2026-11-20",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
+            "docente": "M. ROTELLINI",
+            "isFirmato": false,
+            "operazione": "I",
+            "datEvento": "2026-11-20",
+            "ora": 3,
+            "attivita": "Recupero verifica per G.M. (assente il giorno 06/11)",
+            "compiti": []
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911DB14F9ABFC9AD4C83DFA39D54370A7A077D0AFAE5569326DBEB8A2373ACD0E177",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
@@ -5095,6 +6389,106 @@
             ]
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911D93038422AA92433BCD989779D08F45577D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-05",
+            "ora": 3,
+            "attivita": "The New Scientific method p.126 n.1,2,4, p.127 \"The Royal Society\"",
+            "compiti": [
+              {
+                "compito": "Studiare pp.126 e 127",
+                "dataConsegna": "2026-11-06"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911D3E8C3EAC27FC00D66B41D8539329AB53460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-11-06",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-06",
+            "ora": 5,
+            "attivita": "Metaphysical poetry p.128, es n.1 prime cinque domande",
+            "compiti": [
+              {
+                "compito": "Studiare p.128",
+                "dataConsegna": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911DF8E05A2A02F40652E1E5BF9A18D17D32ADBA4451A8FE6F28A160646910DFD9A1",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-11-07",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-07",
+            "ora": 4,
+            "attivita": "Verifiche orali, listening activities p. 127 n.6, p.124 n.4",
+            "compiti": [
+              {
+                "compito": "Ripasso per verifiche orali, fare es p.121 n.5",
+                "dataConsegna": "2026-11-12"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911DF64BFEC80E5FB07CFAB1D40433C7C3F17D0AFAE5569326DBEB8A2373ACD0E177",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-11-12",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-12",
+            "ora": 3,
+            "attivita": "Verifiche orali; John Donne: his life p.129",
+            "compiti": [
+              {
+                "compito": "Studiare Donne's life p.129 e ripasso per verifiche orali",
+                "dataConsegna": "2026-11-13"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA2BCCE47247C8241394323C8452927D320CD4C174DA644EA0D8ACED6F2AFB5CE22980C92167F2E2E1CE8DB9DAEE8E6911DEA7F1959B957F48AC0FCC86D9BC0C758460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
+            "materia": "LINGUA E CULTURA INGLESE",
+            "datGiorno": "2026-11-13",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564559C253DC70614EEF831A0771B06CA62",
+            "docente": "M. DE FELICIS",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-13",
+            "ora": 5,
+            "attivita": "Verifiche orali",
+            "compiti": [
+              {
+                "compito": "Fare es p.129 n.2 sul quaderno e studiare  Donne's \"style and themes\"",
+                "dataConsegna": "2026-11-19"
+              }
+            ]
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE4519E2E10C71522010E20B8FF1CA35209C4D6AFBA3435C9DC0343CB58F276BC2B14F9ABFC9AD4C83DFA39D54370A7A07ADBA4451A8FE6F28A160646910DFD9A1",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
@@ -5238,6 +6632,35 @@
             "datEvento": "2026-10-29",
             "ora": 4,
             "attivita": "verifiche",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE4519E2E10C71522010E20B8FF1CA35209C4D6AFBA3435C9DC0343CB58F276BC293038422AA92433BCD989779D08F4557ADBA4451A8FE6F28A160646910DFD9A1",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE MOTORIE E SPORTIVE",
+            "datGiorno": "2026-11-05",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564F5AA439D868892DA8ADE304A7F50CA0F",
+            "docente": "R. DI STEFANO",
+            "isFirmato": false,
+            "operazione": "I",
+            "datEvento": "2026-11-05",
+            "ora": 4,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BE4519E2E10C71522010E20B8FF1CA35209C4D6AFBA3435C9DC0343CB58F276BC2F8E05A2A02F40652E1E5BF9A18D17D32460EE515B84A75923B14A30C447F5386",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C47833FD5D85D14E285B6287FA00BA1402144611A5346E610DA6315BFA21CBB9",
+            "materia": "SCIENZE MOTORIE E SPORTIVE",
+            "datGiorno": "2026-11-07",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564F5AA439D868892DA8ADE304A7F50CA0F",
+            "docente": "R. DI STEFANO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-07",
+            "ora": 5,
+            "attivita": "Pallamano",
             "compiti": []
           },
           {
@@ -5449,6 +6872,103 @@
             "compiti": []
           },
           {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BECD4C174DA644EA0D8ACED6F2AFB5CE22D90228B0FE3B5A45EA3301004551B10D081949E55D12CB269231329F150BF221B72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "DISEGNO E STORIA DELL'ARTE",
+            "datGiorno": "2026-11-02",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-02",
+            "ora": 1,
+            "attivita": "Bernini.",
+            "compiti": [
+              {
+                "compito": "Pag. 48/52.",
+                "dataConsegna": "2026-11-09"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BECD4C174DA644EA0D8ACED6F2AFB5CE22D90228B0FE3B5A45EA3301004551B10D081949E55D12CB269231329F150BF221A96134E96D39E25BCAB90951139B3E35",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "DISEGNO E STORIA DELL'ARTE",
+            "datGiorno": "2026-11-02",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-02",
+            "ora": 2,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BECD4C174DA644EA0D8ACED6F2AFB5CE22D90228B0FE3B5A45EA3301004551B10D8AB0B02639EE9E5288AE7B8A385A1E1AB72FF894CAC8926AA503B5612E39A882",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "DISEGNO E STORIA DELL'ARTE",
+            "datGiorno": "2026-11-09",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-09",
+            "ora": 1,
+            "attivita": "Francesco Borromini.",
+            "compiti": [
+              {
+                "compito": "Pag. 54/57.",
+                "dataConsegna": "2026-11-16"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BECD4C174DA644EA0D8ACED6F2AFB5CE22D90228B0FE3B5A45EA3301004551B10D4742B4E2730AB88A91E1F00037D6B0F3B72FF894CAC8926AA503B5612E39A882",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "DISEGNO E STORIA DELL'ARTE",
+            "datGiorno": "2026-11-16",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-16",
+            "ora": 1,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA27B756980ADF41864B0AE15F4B1EAA4BECD4C174DA644EA0D8ACED6F2AFB5CE22D90228B0FE3B5A45EA3301004551B10D4742B4E2730AB88A91E1F00037D6B0F3A96134E96D39E25BCAB90951139B3E35",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+            "materia": "DISEGNO E STORIA DELL'ARTE",
+            "datGiorno": "2026-11-16",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-16",
+            "ora": 2,
+            "attivita": "",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB26203AC100945E0E652481CA06379770612CF8E60BA7DBA8B7CA4DD3BCCBA769F66D8C2A683F558B50666AE19979D4B7344487E20D61EE0DA83057D98A3390EC0",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1092025ADE7CAEA311186C3EB5E6056E702144611A5346E610DA6315BFA21CBB9",
+            "materia": "EDUCAZIONE CIVICA",
+            "datGiorno": "2026-11-09",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855648A8ABEDA43F662CCF790F62D0AC484A9",
+            "docente": "L. DI LUCA",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-09",
+            "ora": 3,
+            "attivita": "Progetto Pre-text",
+            "compiti": []
+          },
+          {
             "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB26203AC100945E0E652481CA0637977060AD3128C16F25E383877F86764695209BD67E336BA745CDC6E8CA7280B28099DA96134E96D39E25BCAB90951139B3E35",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1092025ADE7CAEA311186C3EB5E6056E702144611A5346E610DA6315BFA21CBB9",
@@ -5473,18 +6993,53 @@
             ]
           },
           {
-            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB26203AC100945E0E652481CA0637977060AD3128C16F25E383877F8676469520974AD3D62EC72AA719BF8C57876C41030A96134E96D39E25BCAB90951139B3E35",
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB26203AC100945E0E652481CA0637977060AD3128C16F25E383877F8676469520914F6515D1AA58BFB98D7456F006D0C8A1ABBD06EAF5EBF2E1BE2046BC196761F",
             "desUrl": "",
             "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1092025ADE7CAEA311186C3EB5E6056E702144611A5346E610DA6315BFA21CBB9",
             "materia": "EDUCAZIONE CIVICA",
-            "datGiorno": "2026-11-03",
+            "datGiorno": "2026-11-20",
             "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564E1AE86ACA7B1C390FE5228F311170AD5",
             "docente": "M. ROTELLINI",
             "isFirmato": false,
             "operazione": "I",
-            "datEvento": "2026-11-03",
+            "datEvento": "2026-11-20",
+            "ora": 4,
+            "attivita": "Dichiarazione dei Diritti dell'uomo e del cittadino",
+            "compiti": [
+              {
+                "compito": "Studiare pp. 144-146. Rispondere alle domande da 1 a 6",
+                "dataConsegna": "2026-11-24"
+              }
+            ]
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB26203AC100945E0E652481CA063797706D90228B0FE3B5A45EA3301004551B10D8AB0B02639EE9E5288AE7B8A385A1E1AA96134E96D39E25BCAB90951139B3E35",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1092025ADE7CAEA311186C3EB5E6056E702144611A5346E610DA6315BFA21CBB9",
+            "materia": "EDUCAZIONE CIVICA",
+            "datGiorno": "2026-11-09",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE855646897C381FCC9409428D5C749A678637D",
+            "docente": "C. GENTILE",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-09",
             "ora": 2,
-            "attivita": "Confronto tra le imprese di Don Chisciotte e gli articoli della Dichiarazione Universale dei Diritti Umani (art.1,4,7,23)\nQuali sono i\"mulini a vento\" di oggi?  (caporalato, mancanza di sicurezza sul lavoro, discriminazioni sistemiche).",
+            "attivita": "Pre-text",
+            "compiti": []
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD19A3EED092BC024873F736501448C2FA242FCAA3049DC4BC526FE262FBFB9BCB26203AC100945E0E652481CA0637977064B5485B7757334AADEAD71FDE626A5B4D55348A0F53BDBBC7479A46D733EF0DCADBA4451A8FE6F28A160646910DFD9A1",
+            "desUrl": "",
+            "pkMateria": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1092025ADE7CAEA311186C3EB5E6056E702144611A5346E610DA6315BFA21CBB9",
+            "materia": "EDUCAZIONE CIVICA",
+            "datGiorno": "2026-11-09",
+            "pkDocente": "C9E651D55BA80D11672DE4EE6D80915AAE95DA374DA184F2CF7FA7B1BDE85564EA44476D18FADFA0C80896A1157C8DD6",
+            "docente": "R. MORO",
+            "isFirmato": true,
+            "operazione": "I",
+            "datEvento": "2026-11-09",
+            "ora": 4,
+            "attivita": "Progetto pre-text",
             "compiti": []
           },
           {
@@ -5573,13 +7128,37 @@
             "nota": "Assenza",
             "datEvento": "2026-10-21",
             "operazione": "I"
+          },
+          {
+            "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADAB1723F789FB6AE6B8B199CBFF9774237531A5626C9BEAE4CA017346725EA0126811E8CE1F96E400FAEAB35D54CCEF16D7C4A5783AE53A1C3DB5B85BFBBED9F5F63ADCEE693D2FA88479BCBEB4ABCC6C10309F0C1C8ACDC1E5069A6183ECE39E1151963366227E6BD69552779451EFE5",
+            "docente": "S. BACCELLA",
+            "codEvento": "A",
+            "data": "2026-11-11",
+            "daGiustificare": true,
+            "giustificata": "S",
+            "commentoGiustificazione": "di salute ",
+            "dataGiustificazione": "2026-11-12",
+            "nota": "Assenza",
+            "datEvento": "2026-11-11",
+            "operazione": "I"
           }
         ],
         "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD11840099CCE254E2739BB8724C360E3ADE27CF63310F4CA175632429FDB5F0A1D2D1F1D2D47E45C338E3718BDAEC85CC3",
         "mediaPeriodi": [
           {
-            "mediaGenerale": 8.05,
+            "mediaGenerale": 8.02,
             "materie": [
+              {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.62,
+                "mediaScritta": 9.25,
+                "numVoti": 2,
+                "sumValori": 17.25,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+                "numValutazioniScritto": 1,
+                "mediaOrale": 8
+              },
               {
                 "numValutazioniOrale": 1,
                 "mediaMateria": 8.15,
@@ -5614,15 +7193,26 @@
                 "mediaOrale": 7.5
               },
               {
-                "numValutazioniOrale": 0,
-                "mediaMateria": 8.85,
-                "mediaScritta": 8.85,
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.15,
+                "mediaScritta": 0,
                 "numVoti": 1,
-                "sumValori": 8.85,
+                "sumValori": 8.15,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 8.15
+              },
+              {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.68,
+                "mediaScritta": 8.85,
+                "numVoti": 2,
+                "sumValori": 17.35,
                 "numValori": 0,
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
                 "numValutazioniScritto": 1,
-                "mediaOrale": 0
+                "mediaOrale": 8.5
               },
               {
                 "numValutazioniOrale": 1,
@@ -5656,13 +7246,28 @@
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
                 "numValutazioniScritto": 0,
                 "mediaOrale": 8.5
+              },
+              {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 7.25,
+                "mediaScritta": 8,
+                "numVoti": 2,
+                "sumValori": 14.5,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 1,
+                "mediaOrale": 6.5
               }
             ],
             "codPeriodo": "1Q",
             "pk": "1Q",
             "mediaMese": [
               {
-                "valore": 8.05,
+                "valore": 7.79,
+                "mese": 11
+              },
+              {
+                "valore": 8.18,
                 "mese": 10
               }
             ]
@@ -5677,6 +7282,17 @@
                 "numVoti": 0,
                 "sumValori": 0,
                 "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
+              {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD17C0F84856DE6310E8E275879BC659D2502144611A5346E610DA6315BFA21CBB9",
                 "numValutazioniScritto": 0,
                 "mediaOrale": 0
@@ -5700,6 +7316,17 @@
                 "sumValori": 0,
                 "numValori": 0,
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD10503155A78E2AF4DB400F423864CDBF802144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
+              },
+              {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
                 "numValutazioniScritto": 0,
                 "mediaOrale": 0
               },
@@ -5746,6 +7373,17 @@
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
                 "numValutazioniScritto": 0,
                 "mediaOrale": 0
+              },
+              {
+                "numValutazioniOrale": 0,
+                "mediaMateria": 0,
+                "mediaScritta": 0,
+                "numVoti": 0,
+                "sumValori": 0,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 0
               }
             ],
             "codPeriodo": "SF",
@@ -5753,8 +7391,19 @@
             "mediaMese": []
           },
           {
-            "mediaGenerale": 8.05,
+            "mediaGenerale": 8.02,
             "materie": [
+              {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.62,
+                "mediaScritta": 9.25,
+                "numVoti": 2,
+                "sumValori": 17.25,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1F602391E7EAD9083FACD665F6AE89F922D1F1D2D47E45C338E3718BDAEC85CC3",
+                "numValutazioniScritto": 1,
+                "mediaOrale": 8
+              },
               {
                 "numValutazioniOrale": 1,
                 "mediaMateria": 8.15,
@@ -5789,15 +7438,26 @@
                 "mediaOrale": 7.5
               },
               {
-                "numValutazioniOrale": 0,
-                "mediaMateria": 8.85,
-                "mediaScritta": 8.85,
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.15,
+                "mediaScritta": 0,
                 "numVoti": 1,
-                "sumValori": 8.85,
+                "sumValori": 8.15,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1B405FD65EA473E3F6A0E4A92B092B02A02144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 0,
+                "mediaOrale": 8.15
+              },
+              {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 8.68,
+                "mediaScritta": 8.85,
+                "numVoti": 2,
+                "sumValori": 17.35,
                 "numValori": 0,
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD14FA0111792674C316C32BA5D2395B5BA02144611A5346E610DA6315BFA21CBB9",
                 "numValutazioniScritto": 1,
-                "mediaOrale": 0
+                "mediaOrale": 8.5
               },
               {
                 "numValutazioniOrale": 1,
@@ -5831,13 +7491,28 @@
                 "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1E4A1DF59D75AA3B093892FD3C7BD04332D1F1D2D47E45C338E3718BDAEC85CC3",
                 "numValutazioniScritto": 0,
                 "mediaOrale": 8.5
+              },
+              {
+                "numValutazioniOrale": 1,
+                "mediaMateria": 7.25,
+                "mediaScritta": 8,
+                "numVoti": 2,
+                "sumValori": 14.5,
+                "numValori": 0,
+                "pk": "C9E651D55BA80D11672DE4EE6D80915AB87E8411B0E519DBD19A8349379075346258AA5D758A3CBDF4869003AE524DD1C843DE700DC6A47EF08445EE3AF27A8A02144611A5346E610DA6315BFA21CBB9",
+                "numValutazioniScritto": 1,
+                "mediaOrale": 6.5
               }
             ],
             "codPeriodo": "*",
             "pk": "*",
             "mediaMese": [
               {
-                "valore": 8.05,
+                "valore": 7.79,
+                "mese": 11
+              },
+              {
+                "valore": 8.18,
                 "mese": 10
               }
             ]

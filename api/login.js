@@ -3,7 +3,7 @@ import { chromium } from "playwright";
 
 export async function login(codiceScuola,username,password) {
     const browser = await chromium.launch({
-        headless: true
+        headless: false
     });
 
     try{
@@ -66,7 +66,6 @@ export async function login(codiceScuola,username,password) {
         await browser.close();
 
         return {
-            successo:true,
             accessToken,
             authToken
         };

@@ -1,4 +1,4 @@
-import db from "./db.js";
+
 import { createHash } from "node:crypto";
 
 function creaIdentificatoreCompito(compito) {
@@ -11,7 +11,7 @@ function creaIdentificatoreCompito(compito) {
     return createHash("sha256").update(valore).digest("hex");
 }
 
-export async function insertData(dati) {
+export async function insertData(dati,db) {
 
     for (const compito of dati.compiti) {
         const identificatore = creaIdentificatoreCompito(compito);

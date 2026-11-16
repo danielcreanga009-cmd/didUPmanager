@@ -18,7 +18,8 @@ app.post('/verify-argo', async (req, res) => {
 
     if(risultato.successo){
         res.status(200).json({
-            valid:true
+            valid:true,
+            idUtenteArgo: risultato.idUtente
         });
     } else{
         res.status(401).json({
